@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Fundamentos del mercado I',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'Se inicia el abordaje de las temáticas asociadas al <b>mercado de la moda</b>, las cuales son de vital importancia para el contexto del desarrollo de colecciones, ya que es a través del conocimiento del mercado que es posible conseguir el éxito esperado para los productos de moda.<br><br>Por tales motivos, en este componente formativo se hablará de la <b>investigación de mercados centrada en el sector moda</b> que es el eje de aprendizaje.',
+    imagenBannerPrincipal: require('@/assets/curso/inicio.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo.jpg'),
   },
   menuPrincipal: {
     menu: [
@@ -15,125 +14,59 @@ export default {
         titulo: 'Volver al inicio',
       },
       {
-        nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
-        titulo: 'Introducción',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Investigación de la moda',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo:
+              'Introducción a la investigación en el mundo de la moda, ¿Qué, por qué y para quién investigar?',
+            hash: 't1-1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Indagar y elegir tema de investigación',
+            hash: 't1-2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo:
+              'Fuentes de información e investigación: Introducción a las macrotendencias y microtendencias, fuentes de inspiración',
+            hash: 't1-3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo:
+              'Metodologías para la gestión de la información: coolhunting y cooltsearching, bloggers y trendsetters, comunidades o grupos de consumo, herramientas para cazar tendencias',
+            hash: 't1-4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
+            titulo:
+              'Recopilación y análisis de datos: cuaderno de bocetos, técnicas de dibujo, el collage, yuxtaposición deconstrucción, referencias cruzadas, análisis de la investigación, centrarse en elementos claves (moodboards, storyboards, concepbook).',
+            hash: 't1-5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
+            titulo:
+              'Estructura y forma de la colección: interpretación del concepto de la colección, cartas de color, formas, texturas, materiales, siluetas, procesos y acabados)',
+            hash: 't1-6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo:
+              'Comunicación de las ideas: dibujo aplicado al diseño, plantillas, ilustraciones, collage, dibujo de prototipo, composición, tablero de dibujo',
+            hash: 't-7',
           },
         ],
       },
@@ -141,90 +74,39 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'El mercado y sus segmentos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
+            titulo:
+              'Fundamentos de mercadeo: definición de consumidor, usuario, cliente, competencia, mix de mercado, mercado objetivo',
+            hash: 't2-1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
+            titulo: 'Segmentos de mercado, nichos de mercado',
+            hash: 't2-2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
+            titulo: 'Segmentos emergentes',
+            hash: 't2-3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
+            titulo: 'El cliente: estilos, necesidades, características',
+            hash: 't2-4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            titulo: 'Estrategias de mercadeo, 4p´s del mercado',
+            hash: 't2-5',
           },
         ],
       },
@@ -266,141 +148,620 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Anna&Co. (2019, 28 de mayo). ¿Qué-es-un moodboard de que sirve como se hace? | Anna&Co. Anna&Co. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://annaand.co/post/que-es-un-moodboard-de-que-sirve-como-se-hace',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Arteneo. (2016, 13 de diciembre). El cuaderno de bocetos de los grandes artistas | Arteneo. Arteneo.Com. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.arteneo.com/blog/el-cuaderno-de-bocetos-de-grandes-artistas/',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Blog de DSIGNO. (2017, 9 de mayo). El moodboard: qué es y para qué sirve. Dsigno.Es. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.dsigno.es/blog/diseno-de-moda/moodboard-que-es-y-para-que-sirve',
+    },
+    {
+      referencia: 'Castaño, P. (s.f.). Paneles de indumentaria - Pinterest. ',
+      link: 'https://ar.pinterest.com/castapablo/paneles-de-indumentaria/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Castillo, P. (s.f.). Bases para diseñar una colección de moda: Guía completa con imágenes y ejemplos. Fashion & Illustration. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://fashionandillustration.com/bases-para-disenar-una-coleccion-de-moda/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Céspedes Sáenz, A. (2010). Principios de mercadeo (5a. ed.). Ecoe Ediciones. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69059?page=76',
+    },
+    {
+      referencia: 'CEIPA. (2011). Fundamentos de Mercadeo.',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'ciai Cámara Industrial Argentina de la Indumentaria. (s.f.-a). La Ilustración de Moda. Ciaindumentaria.Com.Ar. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://www.ciaindumentaria.com.ar/plataforma/la-ilustracion-de-moda/',
+    },
+    {
+      referencia:
+        'CIAI Cámara Industrial Argentina de la Indumentaria. (s.f.-b). Paneles de tendencia. Ciaindumentaria.Com.Ar. ',
+      link:
+        'http://www.ciaindumentaria.com.ar/plataforma/paneles-de-tendencia/',
+    },
+    {
+      referencia:
+        'Comunicaciones Oui-we. (2014, 17 de mayo). Teorica de diseño de paneles para indumentaria 2014. SlideShare. ',
+      link:
+        'https://es.slideshare.net/comunionesouiwe/teorica-de-diseode-paneles-para-indumentaria-2014',
+    },
+    {
+      referencia:
+        'Coolhunting, cazadores de tendencias. (s.f.). Tribuna Salamanca. ',
+      link:
+        'https://www.tribunasalamanca.com/blogs/campamento-marketing/posts/coolhunting-cazadores-de-tendencias',
+    },
+    {
+      referencia:
+        'Corona, C. (2010). Desarrollo de colecciones de moda en la industria textil [Centro Superior de Diseño de Moda de Madrid]. ',
+      link: 'https://issuu.com/corona_baos/docs/thesis',
+    },
+    {
+      referencia: 'Definicion.de. (s.f.-a). Definicion.de. Definicion.De. ',
+      link: 'https://definicion.de/sastre/',
+    },
+    {
+      referencia:
+        'Definicion.de. (s.f.-b). Definición de recolección de datos - Qué es, Significado y Concepto. Definicion.De. ',
+      link: 'https://definicion.de/recoleccion-de-datos/',
+    },
+    {
+      referencia:
+        'Durazo, B. (2018). La macrotendencia, uso y función dentro de una empresa de moda. Artículos Técnicos APTT Perú, 40–42. ',
+      link:
+        'http://apttperu.com/la-macrotendencia-uso-y-funcion-dentro-de-una-empresa-de-moda/',
+    },
+    {
+      referencia:
+        'El nuevo Empresario. (2020). Nicho de Mercado. ¿Cómo encontrarlo? ',
+      link:
+        'https://elnuevoempresario.com/nicho-de-mercado-como-encontrarlo#gs.cnt6n6',
+    },
+    {
+      referencia:
+        'Emprende a conciencia. (s.f.). Diseño de Prototipo — Emprende A Conciencia. Emprende a Conciencia. ',
+      link: 'https://www.emprendeaconciencia.com/diseno-prototipo',
+    },
+    {
+      referencia:
+        'Escuela Superior de Diseño de Barcelona. (2018a, 22 de junio). 5 técnicas de dibujo que han marcado tendencia en el diseño | ESDESIGN. ESDESIG. ',
+      link:
+        'https://www.esdesignbarcelona.com/int/expertos-diseno/5-tecnicas-de-dibujo-que-han-marcado-tendencia-en-el-diseno',
+    },
+    {
+      referencia:
+        'Escuela Superior de Diseño de Barcelona. (2018b, 20 de octubre). ¿Qué es el diseño creativo y como adquirir buenas ideas? | ESDESIGN. ESDESING. ',
+      link:
+        'https://www.esdesignbarcelona.com/int/expertos-diseno/que-es-el-diseno-creativo-y-como-adquirir-buenas-ideas',
+    },
+    {
+      referencia:
+        'ESIC Business Marketing School. (2018). La investigación y análisis de tendencias como nueva aliada en la estrategia. ESIC. ',
+      link:
+        'https://www.esic.edu/rethink/management/la-investigacion-analisis-tendencias-nueva-aliada-la-estrategia',
+    },
+    {
+      referencia:
+        'ESME Escuela de moda y empresa. (s.f.). Los pasos para desarrollar una colección de moda | ESME Escuela de Moda y Empresa. Esme.Es. ',
+      link:
+        'https://www.esme.es/los-pasos-para-desarrollar-una-coleccion-de-moda/',
+    },
+    {
+      referencia:
+        'Estaún, M. (2018). Qué es el Coolhunting: Ventajas, Personajes, Fases y Etapas. Marketing Digital IEBS. ',
+      link: 'https://www.iebschool.com/blog/coolhunting-marketing-digital/',
+    },
+    {
+      referencia:
+        'Fandom. (s.f.). ¿Que es el proceso creativo? | El Proceso Creativo Wiki | Fandom. ',
+      link:
+        'https://el-proceso-creativo.fandom.com/es/wiki/¿Que_es_el_proceso_creativo%3F',
+    },
+    {
+      referencia:
+        'Fashion Snoops. (s.f.). Bases de datos SENA - Acceso a Fashion Snoop . Sistema de Bibliotecas SENA. ',
+      link:
+        'https://login.bdigital.sena.edu.co/login?qurl=https%3A%2F%2Fwww.fashionsnoops.com',
+    },
+    {
+      referencia:
+        'Fernández, E. (2017, 31 de mayo). Coolhunting: el poder detrás de las tendencias - INCRENTA - Blog Colombia. Increnta. ',
+      link:
+        'http://increnta.com/co/blog/coolhunting-el-poder-detras-de-las-tendencias/',
+    },
+    {
+      referencia:
+        'Foto news. (2019, 10 de junio). 27 ejemplos de yuxtaposición en la fotografía - Fotocreativo. Fotocreativo.Com. ',
+      link: 'https://fotocreativo.com/27-ejemplos-de-yuxtaposicion/',
+    },
+    {
+      referencia:
+        'Fradera, G. (s.f.). Tipos de tendencias: macrotendencias y microtendencias | Gemma Fradera. 2018. ',
+      link:
+        'http://gemmafraderabcn.com/tipos-de-tendencias-macrotendencias-y-microtendencias/',
+    },
+    {
+      referencia:
+        'FUDE. (s.f.). Principales técnicas del dibujo artístico | FUDE. Educativo.Net. s ',
+      link:
+        'https://www.educativo.net/articulos/principales-tecnicas-del-dibujo-artistico-1226.html',
+    },
+    {
+      referencia:
+        'Gallegos, Di. (2016). Tendencia y Megatendencia. [video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=PAb6BTBW6X4&feature=youtu.be',
+    },
+    {
+      referencia:
+        'Girela, J. (2020). Tendencias: qué son, quién las decide y cuánto duran | GQ España. Revista GQ. ',
+      link:
+        'https://www.revistagq.com/moda/articulo/tendencias-que-son-comos-se-deciden-cuanto-duran',
+    },
+    {
+      referencia:
+        'Girela, J. & G. Q Spain. (2020). Qué son las tendencias, quién las decide y cuánto duran | Está to guapo | GQ España. [video]. Youtube. ',
+      link: 'https://www.youtube.com/watch?v=y2F71c9Pi_8&feature=youtu.be',
+    },
+    {
+      referencia:
+        'Gómez, D. (2010). Coolhunting editorial, buscando tendencias. ',
+    },
+    {
+      referencia:
+        'González, S. (s.f.). La importancia del dibujo en el diseño. EADE. Retrieved August 3, 2020, from ',
+      link:
+        'https://www.eade.es/blog/185-la-importancia-del-dibujo-en-el-diseno',
+    },
+    {
+      referencia:
+        'Grose, V. (2013). Merchandising de moda. Editorial Gustavo Gili. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/45491?page=68',
+    },
+    {
+      referencia:
+        'Guerrero, J. A. (200). Nuevas tecnologías aplicadas a la moda: diseño, producción, marketing y comunicación. Parramón. ',
+    },
+    {
+      referencia:
+        'Hernández, R., Fernández, C., & Baptista, P. (2014). Metodología de la investigación. In Journal of Chemical Information and Modeling (Vol. 53, Issue 9). ',
+      link: 'https://doi.org/10.1017/CBO9781107415324.004',
+    },
+    {
+      referencia:
+        'Hiebaum, K. (2017, 29 de noviembre). Comunicación, expresión y lenguaje • GestioPolis. Gestiopolis. ',
+      link: 'https://www.gestiopolis.com/comunicacion-expresion-lenguaje/',
+    },
+    {
+      referencia: 'López, V. (s.f.). Taller de coolhunting. Academia.Edu, 26. ',
+      link:
+        'https://www.academia.edu/36524596/Taller_de_coolhunting_Cazadores_de_tendencias',
+    },
+    {
+      referencia:
+        'Manterola, C. & Tamara Otzen, H. (2013). Por qué investigar y cómo conducir una investigación. International Journal of Morphology, 31(4), 1498–1504. ',
+      link: 'https://doi.org/10.4067/S0717-95022013000400056',
+    },
+    {
+      referencia:
+        'Marin, C. & Telas Lafayette. (2017). ¿Qué es una macrotendencia?. ',
+      link: 'https://www.youtube.com/watch?v=ZL4H8EYoRUo&feature=youtu.be',
+    },
+    {
+      referencia:
+        'Massarik. (2018). Cómo ELEGIR y DELIMITAR el TEMA (PROYECTO DE INVESTIGACIÓN). ',
+      link: 'https://www.youtube.com/watch?v=zsqemeClPqQ',
+    },
+    {
+      referencia:
+        'Martorell, N. (2020). Qué son y para qué sirven las 4 Ps y 7 Ps del Marketing Mix. ',
+      link: 'https://noeliamartorell.com/marketing-mix/',
+    },
+    {
+      referencia:
+        'Massarik. (2020). QUÉ SON LAS FUENTES DE INFORMACIÓN PRIMARIAS EN UNA INVESTIGACIÓN DOCUMENTAL',
+      link: 'https://www.youtube.com/watch?v=SWCeVdlYnDA',
+    },
+    {
+      referencia:
+        'Martínez, G. (2018). Marketing y comunicación de moda. ESIC Editorial. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/123405?page=104',
+    },
+    {
+      referencia:
+        'Mc Graw Hill. Unidad 2. Los consumidores, clientes y usuarios. ',
+      link: 'https://www.mheducation.es/bcv/guide/capitulo/8448175840.pdf',
+    },
+    {
+      referencia:
+        'Melo, S. (2018, 29 de marzo). Los diferentes métodos de recopilación de datos | DataScope. DataScope. ',
+      link:
+        'https://mydatascope.com/blog/es/2018/03/29/conoce-los-diferentes-metodos-de-recopilacion-de-datos/',
+    },
+    {
+      referencia:
+        'Mendoza, N. (2017). Macrotendencias: direccionando a la moda y los negocios en el contexto mundial. Business a La Mode. ',
+      link:
+        'https://www.businessalamode.com/post/2017/09/08/macrotendencias-direccionando-a-la-moda-y-los-negocios-en-el-contexto-mundial',
+    },
+    {
+      referencia:
+        'Montalvo, L. (s.f.). Ilustraciones de diseño de moda - Pinterest. Pinterest. ',
+      link:
+        'https://www.pinterest.es/lauramontalvope/ilustraciones-de-diseño-de-moda/',
+    },
+    {
+      referencia:
+        'NEXTLAB institute. (01 20-21). Informe de tendencias Lafayette. ',
+      link: 'https://nextlab.lafayette.com/',
+    },
+    {
+      referencia:
+        'Pasalapágina. (s.f.). Bases de datos acceso a Pasalapágina. Sistema de Bibliotecas SENA. ',
+      link:
+        'https://login.bdigital.sena.edu.co/login?qurl=http%3A%2F%2Fpasalapagina.com%2Fhome-sena.html',
+    },
+    {
+      referencia:
+        'Pinterest. (s.f.). Plantillas - Templates - Figurines - Pinterest.Retrieved August 3, 2020, ',
+      link:
+        'https://www.pinterest.es/figurinesdemoda/plantillas-templates-figurines/',
+    },
+    {
+      referencia:
+        'Posner, H. (2015). Marketing de moda (2a. ed.). Editorial Gustavo Gili.',
+      link: 'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/',
+    },
+    {
+      referencia:
+        'QuestionPro. (s.f.-a). Análisis de Datos | QuestionPro. QuestionPro. ',
+      link: 'https://www.questionpro.com/es/analisis-de-datos.html',
+    },
+    {
+      referencia:
+        'QuestionPro. (s.f.-b). Investigación de Campo. QuestionPro. ',
+      link: 'https://www.questionpro.com/es/investigacion-de-campo.html',
+    },
+    {
+      referencia:
+        'Ras, J. (2015, 26 de marzo). ¿Quieres prototipar? Crea, dibuja, haz, prueba... ¡y vuelve a empezar! Sdli Sociedad de La Innovación. ',
+      link:
+        'https://www.sociedaddelainnovacion.es/quieres-prototipar-crea-dibuja-haz-prueba-y-vuelve-a-empezar/',
+    },
+    {
+      referencia:
+        'Real Academia Española. (s.f.). DRAE | Diccionario de la lengua española | Edición del Tricentenario | RAE - ASALE. ',
+      link: 'https://dle.rae.es/',
+    },
+    {
+      referencia:
+        'Roselló, E. (s.f.). ¿Cómo son las tendencias? El tamaño importa un poco, pero solo a veces - ELISABET ROSELLÓ. Elisabetrosello. ',
+      link:
+        'http://elisabetrosello.com/como-son-las-tendencias-el-tamano-importa-un-poco-pero-solo-a-veces/',
+    },
+    {
+      referencia:
+        'Santiago. (2020, 8 de junio). ¿Cuáles Son las Diferentes Técnicas para Dibujar? Superprof. ',
+      link:
+        'https://www.superprof.co/blog/aprender-a-dibujar-que-especialidad/',
+    },
+    {
+      referencia:
+        'Seivewright, S. (2013). Diseño e investigación (2ª. ed.). Editorial Gustavo Gili.',
+    },
+    {
+      referencia:
+        'SENA. (s.f.). Sistema de Bibliotecas. Biblioteca.Sena.Edu.Co. ',
+      link: 'http://biblioteca.sena.edu.co/paginas/bases.html',
+    },
+    {
+      referencia:
+        'Silvestrini, M. & Vargas, J. (2008). Fuentes de información primarias, secundarias y terciarias. Fuentes de Información, 1–8. ',
+      link: 'http://ponce.inter.edu/cai/manuales/FUENTES-PRIMARIA.pdf',
+    },
+    {
+      referencia:
+        'Skotnicka, I. (2013). Coolhunting, o cómo entender y cazar las tendencias. Emotools, 1–3. ',
+      link:
+        'http://www.emotools.com/contents/articulos-y-blogs/ines-skotnicka-coolhunting-o-como-entender-y-cazar/',
+    },
+    {
+      referencia:
+        'Tutoriales con la Miss. (2018, 28 noviembre). ¿Cómo definir el concepto de una colección de moda?. ',
+      link: 'https://www.youtube.com/watch?v=fkjgvkujtpk&feature=youtu.be',
+    },
+    {
+      referencia: 'Wikipedia. (s.f.-a). Coolhunting. Wikipedia',
+      link:
+        'http://queesunpersonalshopper.com/2015/09/09/quien-es-quien-en-el-mundo-de-la-moda-2-coolhunter/',
+    },
+    {
+      referencia:
+        'Wikipedia. (s.f.-b). Wikipedia, la enciclopedia libre. Wikipedia. ',
+      link: 'https://es.wikipedia.org/wiki/Código_de_vestimenta',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Análisis',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        '1. m. Distinción y separación de las partes de algo para conocer su composición. 2. m. Estudio detallado de algo, especialmente de una obra o de un escrito. (Real Academia Española, s.f.).<br>Consiste en identificar los componentes de un todo, separarlos y examinarlos para lograr acceder a sus principios más elementales. (Definicion.de, s.f.-a).',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Análisis cualitativo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        '1. m. Quím. Análisis que tiene por objeto identificar los componentes de una sustancia. (Real Academia Española, s.f.).',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Análisis cuantitativo',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        '1. m. Quím. Análisis que se emplea para determinar la cantidad de cada elemento o ingrediente en una sustancia. (Real Academia Española, s.f.).',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Canales',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Se denomina canal de distribución al camino seguido en el proceso de comercialización de un producto desde el fabricante hasta el usuario industrial o consumidor final.',
     },
     {
-      termino: 'Moda',
+      termino: 'Cliente',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Un cliente (del Latín cliens, -entis) es la persona o empresa receptora de un bien, servicio, producto o idea, a cambio de dinero u otro artículo de valor.',
     },
     {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'Colección',
+      significado: `1.f. Conjunto ordenado de cosas, por lo común de una misma clase y reunidas por su especial interés o valor. Colección de escritos, de medallas, de mapas.
+      <br>4. f. Conjunto de las creaciones que presenta un diseñador de moda para una temporada. Colección primavera-verano. (Real Academia Española, s.f.).
+      `,
     },
     {
-      termino: 'Diseña',
+      termino: 'Comportamiento',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es el estudio del comportamiento que los consumidores muestran al buscar, comprar, utilizar, evaluar y desechar los productos y servicios que, consideran, satisfarán sus necesidades. Se enfoca en la forma que los individuos toman decisiones para gastar sus recursos disponibles (tiempo, dinero y esfuerzo) en artículos relacionados con el consumo.',
     },
     {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+      termino: 'Comunicación',
+      significado: `2. f. Trato, correspondencia entre dos o más personas.
+      <br>3. f. Transmisión de señales mediante un código común al emisor y al receptor. (Real Academia Española, s.f.).
+      <br>“Compartir algo, poner en común”. Por lo tanto, la comunicación es un fenómeno inherente a la relación que los seres vivos mantienen cuando se encuentran en grupo. A través de la comunicación, las personas o animales obtienen información respecto a su entorno y pueden compartirla con el resto. (Definicion.de, s.f.).
+      `,
     },
     {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+      termino: 'Consumidor',
+      significado: `En economía, un consumidor es una persona u organización que demanda bienes o servicios a cambio de dinero proporcionados por el productor o el proveedor de bienes o servicios. Es decir, es un agente económico con una serie de necesidades. También se define como aquel que consume o compra productos para el consumo; es por tanto el actor final de diversas transacciones productivas.`,
     },
     {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Distribución  ',
+      significado: `Es aquel conjunto de actividades, que se realizan desde que el producto ha sido elaborado por el fabricante hasta que ha sido comprado. La distribución de productos de marca, puede llegar a una relación ruin e insana entre proveedor y distribuidor pudiendo generar controversia dentro de la empresa, que tiene por objeto precisamente hacer llegar el producto (bien o servicio) hasta el consumidor, de cualquier forma a cualquier precio y desprestigiando la marca que representa en la mayoría de los casos pudiendo incluso interponerse entre el fabricante y consumidor final.`,
     },
     {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Emergentes',
+      significado: `Emergente puede referirse a:
+      <br>●	Emergente, un sistema cuyas propiedades o procesos no son reducibles a las de sus partes constituyentes.
+      <br>●	País emergente, aquel cuya economía aún no alcanza el estatus de desarrollada, pero ha avanzado más que sus competidores del mundo en desarrollo.
+      <br>●	Economía emergente, un término macroeconómico.
+      <br>●	Compañía emergente, negocio de limitada historia y grandes posibilidades de crecimiento.
+      `,
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Escaparatismo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Desarrollado por los escaparatistas, como conjunto de técnicas aplicadas al diseño y montaje de vitrinas y escaparates.',
+    },
+    {
+      termino: 'Esencia',
+      significado:
+        'Es aquello invariable y permanente que constituye la naturaleza de las cosas. El término proviene del latín essentia, que a su vez deriva de un concepto griego. Se trata de una noción que hace referencia a lo característico y más importante de una cosa. (Definicion.de, s.f.).',
+    },
+    {
+      termino: 'Estilismo',
+      significado:
+        '2. m. En el mundo de la moda y de la decoración especialmente, actividad profesional que se ocupa del estilo y de la imagen. (Real Academia Española, s.f.).',
+    },
+    {
+      termino: 'Estrategia',
+      significado:
+        'Es el elemento que define y encuadra las líneas maestras de comunicación y comercialización de la empresa, para aprovechar las oportunidades del mercado.',
+    },
+    {
+      termino: 'Expresión',
+      significado: `2. f. Especificación, declaración de algo para darlo a entender. (Real Academia Española, s.f.).
+      <br>Del latín expressio, una expresión es una declaración de algo para darlo a entender. Puede tratarse de una locución, un gesto o un movimiento corporal. La expresión permite exteriorizar sentimientos o ideas: cuando el acto de expresar trasciende la intimidad del sujeto, se convierte en un mensaje que el emisor transmite a un receptor. (Definicion.de, s.f.) 
+      `,
+    },
+    {
+      termino: 'Fuente de Inspiración',
+      significado: `7. f. Principio, fundamento u origen de algo.
+      <br>8. f. Persona o cosa que proporciona información. (Real Academia Española, s.f.). 
+      <br>d (=raíz) material, obra o autor que provee información. (Diccionario.reverso.net).
+      `,
+    },
+    {
+      termino: 'Hábitos',
+      significado:
+        'Es la acción y efecto de consumir o gastar, sean productos, bienes o servicios, como por ejemplo la energía, entendiendo por consumir, como el hecho de utilizar estos productos y servicios para satisfacer necesidades primarias y secundarias.',
+    },
+    {
+      termino: 'Indagar',
+      significado: `1.tr. Intentar averiguar algo discurriendo o con preguntas. (Real Academia Española, s.f.). 
+      <br>Verbo que procede de la lengua latina (indagāre). El término se utiliza para nombrar a la intención de conocer algo a través de una investigación o mediante preguntas. (Definicion.de, s.f.).
+      `,
+    },
+    {
+      termino: 'Individualidad',
+      significado:
+        '1. f. Cualidad particular de alguien o algo, por la cual se da a conocer o se señala singularmente. (Real Academia Española, s.f.).',
+    },
+    {
+      termino: 'Innovación',
+      significado:
+        '2. f. Creación o modificación de un producto, y su introducción en un mercado. (Real Academia Española, s.f.).',
+    },
+    {
+      termino: 'Inspiración',
+      significado:
+        'Del latín inspiratĭo, la inspiración es el proceso o el resultado de inspirarse o inspirar (hacer que el aire del exterior ingrese a los pulmones, impulsar pensamientos en la mente). Hace referencia a la iluminación que una divinidad o una fuerza sobrenatural aporta a una persona. La inspiración está vinculada al estímulo espontáneo que surge en el interior de un artista o creativo. La inspiración no aparece por esfuerzo o voluntad; por lo tanto, se diferencia del trabajo o del entrenamiento. (Definicion.de, s.f.).',
+    },
+    {
+      termino: 'Investigación',
+      significado: `1.f. Investigación que tiene por fin ampliar el conocimiento científico, sin perseguir, en principio, ninguna aplicación práctica. (Real Academia Española, s.f.).
+      <br>(vocablo que tiene su origen en el latín investigare), este verbo se refiere al acto de llevar a cabo estrategias para descubrir algo. También permite hacer mención al conjunto de actividades de índole intelectual y experimental de carácter sistemático, con la intención de incrementar los conocimientos sobre un determinado asunto. (Definicion.de, s.f.).
+      `,
+    },
+    {
+      termino: 'Macrotendencia',
+      significado:
+        'Cuando una tendencia es adoptada por un colectivo muy reducido. O dura un poco más que una moda. (Roselló, s.f.).',
+    },
+    {
+      termino: 'Mentalidades',
+      significado:
+        'Este término se ha usado desde principios del siglo XX para la representación de la cultura y estructuras sociales que los individuos de una determinada sociedad tienen sobre el mundo social. Su estudio parte de la historiografía moderna ha sido llamado también historia de la sensibilidad y abarca todas las expresiones de vida cotidiana como complemento del estudio de la macro-historia.',
+    },
+    {
+      termino: 'Mercadeo',
+      significado:
+        'Acción de mercadear. Conjunto de operaciones por las que ha de pasar una mercancía del productor al consumidor.',
+    },
+    {
+      termino: 'Mercado',
+      significado:
+        'En economía, un mercado es un conjunto de transacciones de procesos o intercambio de bienes o servicios entre individuos.',
+    },
+    {
+      termino: 'Metodología',
+      significado: `1. f. Ciencia del método.
+      <br>2. f. Conjunto de métodos que se siguen en una investigación científica o en una exposición doctrinal. (Real Academia Española, s.f.).
+      <br>Vocablo generado a partir de tres palabras de origen griego:metà (“más allá”), odòs (“camino”) y logos (“estudio”). El concepto hace referencia al plan de investigación que permite cumplir ciertos objetivos en el marco de una ciencia. (Definicion.de, s.f.)
+      `,
+    },
+    {
+      termino: 'Microtendencia',
+      significado:
+        'Lleva poco tiempo de existencia (unas pocas semanas o meses) como para confirmar que es eso, una tendencia pequeña sin más. (Roselló, s.f.)',
+    },
+    {
+      termino: 'Mix de mercadeo',
+      significado:
+        'Se denomina mezcla de mercadotecnia o mix comercial (conocido en el mundo como marketing mix) a las herramientas o variables de las que dispone el responsable de la mercadotecnia para cumplir con los objetivos de la compañía. Son las estrategias de marketing, o esfuerzo de mercadotecnia y deben incluirse en el plan de marketing (plan 0c). La empresa usa esta estrategia cuando busca acaparar mayor clientela. Y por eso se lo considera importante. Como la rama más esencial.',
+    },
+    {
+      termino: 'Nicho de mercado',
+      significado:
+        'Es un término de mercadotecnia utilizado para referirse a una porción de un segmento de mercado en la que los individuos poseen características y necesidades homogéneas, y estas últimas no están del todo cubiertas por la oferta general del mercado.',
+    },
+    {
+      termino: 'Plantilla',
+      significado: `Una plantilla o dispositivo de interfaz, suele proporcionar una separación entre la forma o estructura y el contenido. Es un medio o aparato o sistema, que permite guiar, portar, o construir, un diseño o esquema predefinido.
+      <br>Una plantilla agiliza el trabajo de reproducción o de muchas copias idénticas o casi idénticas (que no tiene que ser tan elaborado, sofisticado o personal). Si se utilizan plantillas en todos los terrenos de la industria y la tecnología. Una plantilla puede servir como muestra base de una diversidad sobre la que comparten elementos comunes (patrón) y que en sí es lo que constituye la plantilla.
+      <br>En relación con la edición o composición de textos o imágenes, se compone de cajas y líneas, con unos tamaños y márgenes, para facilitar la escritura de artículos o cartas, con títulos, fotos y diagramas. (Wikipedia, s.f.-b)
+      `,
+    },
+    {
+      termino: 'Proceso creativo',
+      significado:
+        'Se refiere a las fases que se deben seguir para la aplicación de la creatividad y la generación de ideas entorno a un reto o un problema a resolver. (Fandom, s.f.)',
+    },
+    {
+      termino: 'Segmento de mercado',
+      significado:
+        'Como su propio nombre indica, se trata de identificar segmentos de [Mercado (Marketing)(mercado)] o grupos uniformes más pequeños, pues la segmentación de un mercado en muchos mercados se puede asociar, de acuerdo a sus características o variables que puedan influir en su comportamiento de compra.',
+    },
+    {
+      termino: 'Tema',
+      significado: `9. m. Ling. Parte de un enunciado que presenta cierta información como conocida, por oposición al rema. (Real Academia Española, s.f.).
+      <br>Es la cuestión que capta la atención de los científicos al realizar un trabajo de campo. (Definicion.de, s.f.)
+      `,
+    },
+    {
+      termino: 'Transacción',
+      significado:
+        'Una transacción financiera es un acuerdo, comunicación o movimiento llevado a cabo entre un comprador y un vendedor en la que se intercambian un activo contra un pago. Implica un cambio en el estatus en las finanzas de dos o más negocios o individuos. El comprador y el vendedor son entidades u objetos separados, que generalmente intercambian productos de valor, como información, bienes, servicios o dinero. Seguiría siendo una transacción el intercambio de bienes en un momento dado y del dinero en otro diferente. Este tipo de operación se conoce como una transacción de dos partes, siendo la primera parte la entrega de dinero y la parte segunda la recepción de bienes.',
+    },
+    {
+      termino: 'Usuario',
+      significado:
+        'Persona que usa habitualmente un servicio. "Los usuarios de los transportes públicos".',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Manterola & Tamara Otzen, (2013) Por qué investigar y cómo conducir una investigación.',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/Anexo B_U1_Por_ que_Investigar_y_Como_Conducir_una_Investigacion.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Durazo, (2018), La macrotendencia, uso y función dentro de una empresa de moda',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo_H_U1_LaMacrotendeciaUsoYFuncion.pdf',
+    },
+    {
+      texto: 'López, (s.f.), Taller de Coolhunting',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/Anexo_W_U1Taller_de_coolhunting_Cazadores_de_tende.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        ' Skotnicka, (2013), Coolhunting, o cómo entender y cazar las tendencias',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/Anexo_V_U1Taller_de_coolhunting_Cazadores_de_tende.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'Comunicaciones Oui-we, (2014), Teórica de diseño de paneles para indumentaria 2014.',
+      tipo: 'PDF',
+      descarga:
+        'downloads/Anexo SS_U1_TeoricaDeDiseñoDePanelesParaIndumentaria2014.pdf',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'Zapata, O, (2005), ¿Cómo encontrar un tema y construir un tema de investigación?',
+      tipo: 'PDF',
+      descarga: '/downloads/ComoEncontrarUnTemaZapataOscar.pdf',
+    },
+    {
+      texto:
+        'Iglesias, J, (2015). El papel de las marcas de moda en la construcción de la identidad personal.',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/ElPapelDeLasMarcasDeModaEnLaConstruccionDeIdentidadPersonal.pdf',
+    },
+    {
+      texto:
+        'Silvestrini, M.,(2008), Fuentes de información primarias, secundarias y terciarias.',
+      tipo: 'PDF',
+      descarga: '/downloads/FuentesDeInformacion.pdf',
+    },
+    {
+      texto: '(s.f.), El storyboard o guion gráfico.',
+      tipo: 'PDF',
+      descarga: '/downloads/StoryBoard.pdf',
+    },
+    {
+      texto: 'Comunicación, expresión y lenguaje • GestioPolis (Hiebaum, 2017)',
+      tipo: 'PDF',
+      link: 'https://www.gestiopolis.com/comunicacion-expresion-lenguaje/',
     },
   ],
   creditos: {

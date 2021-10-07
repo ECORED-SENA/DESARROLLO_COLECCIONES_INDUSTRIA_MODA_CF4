@@ -13,12 +13,6 @@ const router = new VueRouter({
       component: Inicio,
     },
     {
-      path: '/introduccion',
-      name: 'introduccion',
-      component: () =>
-        import(/* webpackChunkName: "intro" */ '../views/Introduccion.vue'),
-    },
-    {
       path: '/curso',
       name: 'curso',
       component: Curso,
@@ -37,12 +31,6 @@ const router = new VueRouter({
           name: 'tema2',
           component: () =>
             import(/* webpackChunkName: "tema2" */ '../views/Tema2.vue'),
-        },
-        {
-          path: 'tema3',
-          name: 'tema3',
-          component: () =>
-            import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
         },
       ],
     },
@@ -84,6 +72,7 @@ const router = new VueRouter({
           /* webpackChunkName: "creditos" */ '../../node_modules/ecored-base-pkg/src/views/Creditos.vue'
         ),
     },
+    { path: '*', redirect: '/' },
   ],
   scrollBehavior(to, from) {
     if (to.hash) {
