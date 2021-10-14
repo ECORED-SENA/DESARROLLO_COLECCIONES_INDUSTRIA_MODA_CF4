@@ -2,10 +2,20 @@
   overflow: hidden
 .color-rosado
   background-color: #F2D6E3
+
+.color-rosado--claro
+  background-color: rgba(242,214,227,.15)
+
+.color-rosado--claro-b
+  background-color: #FFF6FA
+
 .eb
   b
     color: $color-primario
-
+.color-secundario
+  .eb
+    b
+      color: $color-secundario
 .card-color
   height: 100%
   display: flex
@@ -203,3 +213,8 @@ a.anexo
 
       &__img-center
         display: none
+
+
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris,
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #def0ff

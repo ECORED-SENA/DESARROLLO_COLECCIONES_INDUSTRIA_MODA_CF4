@@ -153,7 +153,7 @@
             span Aforismo chino
 
 
-    LineaTiempoD.color-primario
+    LineaTiempoD.color-secundario
       div(numero="1" titulo="La segmentación")
         p.eb
           b La segmentación del mercado es un método de investigación de mercadeo
@@ -311,7 +311,7 @@
           .tarjeta.tarjeta--rosada.w-100
             .p-4
               h3.text-center Características demográficas
-              p.text-center.mb-0 edad, sexo, localidad.
+              p.text-center.mb-0 Edad, sexo, localidad.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -319,7 +319,7 @@
           .tarjeta.tarjeta--rosada.w-100
             .p-4
               h3.text-center Características sociológicas
-              p.text-center.mb-0 clase social, nivel de ingresos, formación, tipos de compras que realiza, servicios que utiliza, frecuencia y horario de compra.
+              p.text-center.mb-0 Clase social, nivel de ingresos, formación, tipos de compras que realiza, servicios que utiliza, frecuencia y horario de compra.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -327,7 +327,7 @@
           .tarjeta.tarjeta--rosada.w-100
             .p-4
               h3.text-center Características psicológicas
-              p.text-center.mb-0 estilo de vida, actitudes, motivaciones, aprendizaje o conocimiento de los productos.
+              p.text-center.mb-0 Estilo de vida, actitudes, motivaciones, aprendizaje o conocimiento de los productos.
 
     SlyderB(:datos="datosSlyderB")
 
@@ -370,14 +370,15 @@
         :style="{'background-image' : `url(${require('@/assets/curso/t3-08.jpg')})`}"
       )
 
-    h3.mb-4.text-center.eb Las 4p's del mercadeo
-    .tarjetas-colores
+    h3.mb-4.text-center.eb.d-lg-none Las 4 Ps del mercadeo
+
+    .tarjetas-colores.mb-5
       .tarjetas-colores__item
 
         .tarjetas-colores__item__content
           .tarjetas-colores__item__text.p-4
             h3 Las estrategias de Producto
-            p.mb-0 siempre están relacionadas con materias primas, características de diseño innovadoras, con nuevos modelos, modificaciones, colores nuevos, etiquetas y material POP diferente; es decir, lo que tenga que ver con lo funcional y la apariencia del producto.
+            p.mb-0 Siempre están relacionadas con materias primas, características de diseño innovadoras, con nuevos modelos, modificaciones, colores nuevos, etiquetas y material POP diferente; es decir, lo que tenga que ver con lo funcional y la apariencia del producto.
           .tarjetas-colores__item__img
             img(src='@/assets/curso/q-1.svg')
 
@@ -387,13 +388,13 @@
             img(src='@/assets/curso/q-2.svg')
           .tarjetas-colores__item__text.p-4
             h3 Las estrategias de Precio
-            p.mb-0 siempre tienen que ver con la asignación de precio para los productos y servicios, la forma y condiciones de pago, cómo se asigna el precio, descuentos, el dinero que invierte el cliente para pagar por el producto o servicio; ósea, todo lo que produzca márgenes de utilidad y ganancia. Esto depende de la intención de cada marca y de su participación en el segmento deseado.
+            p.mb-0 Siempre tienen que ver con la asignación de precio para los productos y servicios, la forma y condiciones de pago, cómo se asigna el precio, descuentos, el dinero que invierte el cliente para pagar por el producto o servicio; ósea, todo lo que produzca márgenes de utilidad y ganancia. Esto depende de la intención de cada marca y de su participación en el segmento deseado.
 
       .tarjetas-colores__item
         .tarjetas-colores__item__content
           .tarjetas-colores__item__text.p-4
             h3 Las estrategias de Plaza
-            p.mb-0 tienen que ver con los puntos de venta físicos o digitales y con los canales de distribución; es decir, cómo poner los productos o servicios en las manos del cliente, buscando siempre que estén disponibles.
+            p.mb-0 Tienen que ver con los puntos de venta físicos o digitales y con los canales de distribución; es decir, cómo poner los productos o servicios en las manos del cliente, buscando siempre que estén disponibles.
           .tarjetas-colores__item__img
             img(src='@/assets/curso/q-3.svg')
 
@@ -405,7 +406,11 @@
             img(src='@/assets/curso/q-4.svg')
           .tarjetas-colores__item__text.p-4
             h3 La estrategia de Promoción
-            p.mb-0 tiene que ver con la publicidad, exhibición, vitrina, material POP; ósea, con la forma como se comunica el producto o servicio al cliente. Son todas las actividades que permiten dar a conocer que el producto o servicio existe en una marca y cómo influenciar y convencer a los clientes para que lo compren, concretándose el negocio.
+            p.mb-0 Tiene que ver con la publicidad, exhibición, vitrina, material POP; ósea, con la forma como se comunica el producto o servicio al cliente. Son todas las actividades que permiten dar a conocer que el producto o servicio existe en una marca y cómo influenciar y convencer a los clientes para que lo compren, concretándose el negocio.
+
+    figure
+      img(src='@/assets/curso/final-img.jpg')
+
 
 </template>
 
@@ -441,13 +446,12 @@ export default {
           imagen: require('@/assets/curso/t3-05.jpg'),
         },
         {
-          titulo:
-            'Never, never assume that what you have achieved is good enough',
+          titulo: 'Gestión del mercadeo',
           texto: `<p class="mb-4">El análisis de las variables anteriores, es lo que se llama gestión delmercadeo, que hace para posicionar productos y servicios al precio adecuado, en el lugar preciso y con la promoción correcta para el mercado específico.</p>
           <a href="${this.obtenerLink(
             '/downloads/Anexo_D_U2_ Los consumidores_clientes_y_usuarios.pdf',
-          )}" target="_blank" class="anexo"><div class="anexo__icono"><img src="${require('@/assets/template/icono-ppt.svg')}"></div><div class="anexo__texto"><p class="text-small"><b>Artículo. </b>Porqué Investigar y cómo conducir una Investigación</p></div></a>`,
-          imagen: require('@/assets/curso/t3-05.jpg'),
+          )}" target="_blank" class="anexo"><div class="anexo__icono"><img src="${require('@/assets/template/icono-ppt.svg')}"></div><div class="anexo__texto"><p class="text-small"><b>Documento. </b> Los consumidores, clientes y usuarios.</p></div></a>`,
+          imagen: require('@/assets/curso/t3-06.jpg'),
         },
       ]
     },

@@ -44,14 +44,14 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
-              'Metodologías para la gestión de la información: coolhunting y cooltsearching, bloggers y trendsetters, comunidades o grupos de consumo, herramientas para cazar tendencias',
+              'Metodologías para la gestión de la información: <em>coolhunting</em> y <em>cooltsearching</em>, <em>bloggers</em> y <em>trendsetters</em>, comunidades o grupos de consumo, herramientas para cazar tendencias',
             hash: 't1-4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo:
-              'Recopilación y análisis de datos: cuaderno de bocetos, técnicas de dibujo, el collage, yuxtaposición deconstrucción, referencias cruzadas, análisis de la investigación, centrarse en elementos claves (moodboards, storyboards, concepbook).',
+              'Recopilación y análisis de datos: cuaderno de bocetos, técnicas de dibujo, el collage, yuxtaposición deconstrucción, referencias cruzadas, análisis de la investigación, centrarse en elementos claves (<em>moodboards, storyboards, concepbook</em>).',
             hash: 't1-5',
           },
           {
@@ -112,12 +112,12 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -148,7 +148,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Anna&Co. (2019, 28 de mayo). ¿Qué-es-un moodboard de que sirve como se hace? | Anna&Co. Anna&Co. ',
+        'Anna&Co. (2019, 28 de mayo). ¿Qué-es-un <em>moodboard</em> de que sirve como se hace? | Anna&Co. Anna&Co. ',
       link:
         'https://annaand.co/post/que-es-un-moodboard-de-que-sirve-como-se-hace',
     },
@@ -160,7 +160,7 @@ export default {
     },
     {
       referencia:
-        'Blog de DSIGNO. (2017, 9 de mayo). El moodboard: qué es y para qué sirve. Dsigno.Es. ',
+        'Blog de DSIGNO. (2017, 9 de mayo). El <em>moodboard</em>: qué es y para qué sirve. Dsigno.Es. ',
       link:
         'https://www.dsigno.es/blog/diseno-de-moda/moodboard-que-es-y-para-que-sirve',
     },
@@ -185,7 +185,7 @@ export default {
     },
     {
       referencia:
-        'ciai Cámara Industrial Argentina de la Indumentaria. (s.f.-a). La Ilustración de Moda. Ciaindumentaria.Com.Ar. ',
+        'CIAI Cámara Industrial Argentina de la Indumentaria. (s.f.-a). La Ilustración de Moda. Ciaindumentaria.Com.Ar. ',
       link:
         'http://www.ciaindumentaria.com.ar/plataforma/la-ilustracion-de-moda/',
     },
@@ -203,7 +203,7 @@ export default {
     },
     {
       referencia:
-        'Coolhunting, cazadores de tendencias. (s.f.). Tribuna Salamanca. ',
+        '<em>Coolhunting</em>, cazadores de tendencias. (s.f.). Tribuna Salamanca. ',
       link:
         'https://www.tribunasalamanca.com/blogs/campamento-marketing/posts/coolhunting-cazadores-de-tendencias',
     },
@@ -264,7 +264,7 @@ export default {
     },
     {
       referencia:
-        'Estaún, M. (2018). Qué es el Coolhunting: Ventajas, Personajes, Fases y Etapas. Marketing Digital IEBS. ',
+        'Estaún, M. (2018). Qué es el <em>Coolhunting</em>: Ventajas, Personajes, Fases y Etapas. Marketing Digital IEBS. ',
       link: 'https://www.iebschool.com/blog/coolhunting-marketing-digital/',
     },
     {
@@ -281,7 +281,7 @@ export default {
     },
     {
       referencia:
-        'Fernández, E. (2017, 31 de mayo). Coolhunting: el poder detrás de las tendencias - INCRENTA - Blog Colombia. Increnta. ',
+        'Fernández, E. (2017, 31 de mayo). <em>Coolhunting</em>: el poder detrás de las tendencias - INCRENTA - Blog Colombia. Increnta. ',
       link:
         'http://increnta.com/co/blog/coolhunting-el-poder-detras-de-las-tendencias/',
     },
@@ -320,7 +320,7 @@ export default {
     },
     {
       referencia:
-        'Gómez, D. (2010). Coolhunting editorial, buscando tendencias. ',
+        'Gómez, D. (2010). <em>Coolhunting</em> editorial, buscando tendencias. ',
     },
     {
       referencia:
@@ -349,7 +349,8 @@ export default {
       link: 'https://www.gestiopolis.com/comunicacion-expresion-lenguaje/',
     },
     {
-      referencia: 'López, V. (s.f.). Taller de coolhunting. Academia.Edu, 26. ',
+      referencia:
+        'López, V. (s.f.). Taller de <em>coolhunting</em>. Academia.Edu, 26. ',
       link:
         'https://www.academia.edu/36524596/Taller_de_coolhunting_Cazadores_de_tendencias',
     },
@@ -478,7 +479,7 @@ export default {
     },
     {
       referencia:
-        'Skotnicka, I. (2013). Coolhunting, o cómo entender y cazar las tendencias. Emotools, 1–3. ',
+        'Skotnicka, I. (2013). <em>Coolhunting</em>, o cómo entender y cazar las tendencias. Emotools, 1–3. ',
       link:
         'http://www.emotools.com/contents/articulos-y-blogs/ines-skotnicka-coolhunting-o-como-entender-y-cazar/',
     },
@@ -488,7 +489,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=fkjgvkujtpk&feature=youtu.be',
     },
     {
-      referencia: 'Wikipedia. (s.f.-a). Coolhunting. Wikipedia',
+      referencia: 'Wikipedia. (s.f.-a). <em>Coolhunting</em>. Wikipedia',
       link:
         'http://queesunpersonalshopper.com/2015/09/09/quien-es-quien-en-el-mundo-de-la-moda-2-coolhunter/',
     },
@@ -715,14 +716,14 @@ export default {
       descarga: '/downloads/Anexo_H_U1_LaMacrotendeciaUsoYFuncion.pdf',
     },
     {
-      texto: 'López, (s.f.), Taller de Coolhunting',
+      texto: 'López, (s.f.), Taller de <em>Coolhunting</em>',
       tipo: 'PDF',
       descarga:
         '/downloads/Anexo_W_U1Taller_de_coolhunting_Cazadores_de_tende.pdf',
     },
     {
       texto:
-        ' Skotnicka, (2013), Coolhunting, o cómo entender y cazar las tendencias',
+        ' Skotnicka, (2013), <em>Coolhunting</em>, o cómo entender y cazar las tendencias',
       tipo: 'PDF',
       descarga:
         '/downloads/Anexo_V_U1Taller_de_coolhunting_Cazadores_de_tende.pdf',

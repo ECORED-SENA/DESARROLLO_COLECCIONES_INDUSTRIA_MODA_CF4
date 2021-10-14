@@ -129,15 +129,15 @@
               ul.lista-ul
                 li.eb
                   b.me-2
-                    i.fas.fa-angle-right
+                    i.fas.fa-check
                   | ¿Quién lo ha investigado antes? 
                 li.eb
                   b.me-2
-                    i.fas.fa-angle-right
+                    i.fas.fa-check
                   | ¿Cómo se ha abordado en otros contextos? 
                 li.eb
                   b.me-2
-                    i.fas.fa-angle-right
+                    i.fas.fa-check
                   | ¿Qué diferencia hace investigar sobre este tema?
               p.eb En fin, todo ayuda a hacerse una idea al respecto del tema antes de adentrarse en el proceso de investigación. 
                 b Una vez se tiene claro qué investigar se procede a buscar en las fuentes de información.
@@ -180,10 +180,10 @@
         .col-6.mb-4.mb-lg-0
           img(src='@/assets/curso/t1-13.jpg')
         .col-lg-6
-          .linea-tiempo-d
+          .linea-tiempo-d.color-secundario
             .linea-tiempo-d__item.row
               .col-auto.linea-tiempo-d__item__col-number
-                .linea-tiempo-d__item__number.tarjeta.color-primario
+                .linea-tiempo-d__item__number.tarjeta.color-secundario
                   span 1
                 .linea-tiempo-d__item__dots
 
@@ -198,7 +198,7 @@
 
             .linea-tiempo-d__item.row
               .col-auto.linea-tiempo-d__item__col-number
-                .linea-tiempo-d__item__number.tarjeta.color-primario
+                .linea-tiempo-d__item__number.tarjeta.color-secundario
                   span 2
                 .linea-tiempo-d__item__dots
 
@@ -211,7 +211,7 @@
 
             .linea-tiempo-d__item.row
               .col-auto.linea-tiempo-d__item__col-number
-                .linea-tiempo-d__item__number.tarjeta.color-primario
+                .linea-tiempo-d__item__number.tarjeta.color-secundario
                   span 3
                 .linea-tiempo-d__item__dots
 
@@ -228,7 +228,7 @@
 
             .linea-tiempo-d__item.row
               .col-auto.linea-tiempo-d__item__col-number
-                .linea-tiempo-d__item__number.tarjeta.color-primario
+                .linea-tiempo-d__item__number.tarjeta.color-secundario
                   span 4
                 .linea-tiempo-d__item__dots
 
@@ -246,7 +246,7 @@
             
             .linea-tiempo-d__item.row
               .col-auto.linea-tiempo-d__item__col-number
-                .linea-tiempo-d__item__number.tarjeta.color-primario
+                .linea-tiempo-d__item__number.tarjeta.color-secundario
                   span 5
                 .linea-tiempo-d__item__dots
 
@@ -259,7 +259,7 @@
 
             .linea-tiempo-d__item.row
               .col-auto.linea-tiempo-d__item__col-number
-                .linea-tiempo-d__item__number.tarjeta.color-primario
+                .linea-tiempo-d__item__number.tarjeta.color-secundario
                   span 6
                 .linea-tiempo-d__item__dots
 
@@ -271,7 +271,7 @@
             
             .linea-tiempo-d__item.row
               .col-auto.linea-tiempo-d__item__col-number
-                .linea-tiempo-d__item__number.tarjeta.color-primario
+                .linea-tiempo-d__item__number.tarjeta.color-secundario
                   span 7
                 .linea-tiempo-d__item__dots
 
@@ -285,13 +285,125 @@
                         img(src="@/assets/template/icono-doc.svg")
                       .anexo__texto
                         p.text-small
-                          b Material complementario para profundizar. 
-                          | Profundización
+                          b Anexo. 
+                          | Material complementario para profundizar.
 
+    .px-4.pt-4.px-md-5.pt-md-5.color-rosado--claro
+
+      .row.justify-content-center
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.youtube.com/watch?v=SWCeVdlYnDA" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Vídeo. 
+                | Qué son las fuentes de información primarias en una investigación documental – YouTube (Massarik, 2020) 
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.revistagq.com/moda/articulo/tendencias-que-son-comos-se-deciden-cuanto-duran" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Tendencias: qué son, quién las decide y cuánto duran | GQ España (J. Girela, 2020)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://gemmafraderabcn.com/tipos-de-tendencias-macrotendencias-y-microtendencias/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Tipos de tendencias: macrotendencias y microtendencias | Gemma Fradera (Fradera, s.f.)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://apttperu.com/la-macrotendencia-uso-y-funcion-dentro-de-una-empresa-de-moda/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Artículo. 
+                | La macrotendencia, uso y función dentro de una empresa de moda (Durazo, 2018)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.youtube.com/watch?v=ZL4H8EYoRUo&feature=youtu.be" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Vídeo. 
+                | ¿Qué es una macrotendencia? – YouTube (Marin & Telas Lafayette, 2017)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://elisabetrosello.com/como-son-las-tendencias-el-tamano-importa-un-poco-pero-solo-a-veces/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | ¿Cómo son las tendencias? El tamaño importa un poco, pero solo a veces - ELISABET ROSELLÓ (Roselló, s.f.)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.businessalamode.com/post/2017/09/08/macrotendencias-direccionando-a-la-moda-y-los-negocios-en-el-contexto-mundial" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Macrotendencias: direccionando a la moda y los negocios en el contexto mundial (Mendoza, 2017)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.youtube.com/watch?v=y2F71c9Pi_8&feature=youtu.be" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Vídeo. 
+                | Qué son las tendencias, quién las decide y cuánto duran | Está to guapo | GQ España (Javier Girela & GQ Spain, 2020) Nota: Vídeo destacado
+        
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.youtube.com/watch?v=PAb6BTBW6X4&feature=youtu.be" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Vídeo. 
+                | Tendencia y Megatendencia – YouTube (Gallegos, 2016)
+        
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Base de datos. 
+                | Sistema de bibliotecas SENA (SENA, s.f.)
+        
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://login.bdigital.sena.edu.co/login?qurl=https%3A%2F%2Fwww.fashionsnoops.com" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Base de datos. 
+                | SENA - Acceso a <em>Fashion Snoop</em> (<em>Fashion Snoops</em>, s.f.)
+        
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://login.bdigital.sena.edu.co/login?qurl=http%3A%2F%2Fpasalapagina.com%2Fhome-sena.htm" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Base de datos. 
+                | Pasalapágina (Pasalapágina, s.f.)
+
+    .px-4.py-4.px-md-5.py-md-5
       Separador
 
       #t1-4.titulo-segundo
-        h2 1.4 Metodologías para la gestión de la información: coolhunting y cooltsearching, bloggers y trendsetters, comunidades o grupos de consumo, herramientas para cazar tendencias
+        h2 1.4 Metodologías para la gestión de la información: <em>coolhunting</em> y <em>cooltsearching</em>, <em>bloggers</em> y <em>trendsetters</em>, comunidades o grupos de consumo, herramientas para cazar tendencias
 
       p.eb En la investigación de moda se pueden encontrar diferentes 
         b roles 
@@ -307,7 +419,7 @@
               img(src='@/assets/curso/t1-15.svg')
             .tarjeta.color-rosado
               .p-4
-                p.mb-0 Coolhunting (en español caza tendencias) y coolsearching (en español buscador de tendencias), son personas o agencias del medio de la moda, que se encargan de buscar, observar, analizar y clasificar de manera temprana la información del entorno (contexto mundial, nacional o local en todos sus aspectos) con el fin de simplificar y extraer la tendencia antes de que esta se produzca para saber invertir en ella en el momento oportuno. Son personas que ponen su creatividad estratégica al servicio de la innovación, publicando informes de tendencias que le sirven a las empresas y profesionales del medio.
+                p.mb-0 <em>Coolhunting</em> (en español caza tendencias) y coolsearching (en español buscador de tendencias), son personas o agencias del medio de la moda, que se encargan de buscar, observar, analizar y clasificar de manera temprana la información del entorno (contexto mundial, nacional o local en todos sus aspectos) con el fin de simplificar y extraer la tendencia antes de que esta se produzca para saber invertir en ella en el momento oportuno. Son personas que ponen su creatividad estratégica al servicio de la innovación, publicando informes de tendencias que le sirven a las empresas y profesionales del medio.
 
         .col-lg-10
           .tarjeta-avatar-b.mb-5
@@ -315,7 +427,7 @@
               img(src='@/assets/curso/t1-16.svg')
             .tarjeta.color-rosado
               .p-4
-                p.mb-0 Los bloggers (blogueros) y trendsetters (pioneros) son (en su mayoría) personas naturales que adoptan las tendencias de manera temprana (en inglés early adopters), sirven como puente entre los cazadores de tendencias y los consumidores, validado las propuestas de los informes e innovando con la aplicación, mezcla y looks (en español atuendo completo) en sus publicaciones (blogs o videoblogs), convirtiéndose en prescriptores de moda.
+                p.mb-0 Los <em>bloggers</em> (blogueros) y <em>trendsetters</em> (pioneros) son (en su mayoría) personas naturales que adoptan las tendencias de manera temprana (en inglés <em>early adopters</em>), sirven como puente entre los cazadores de tendencias y los consumidores, validado las propuestas de los informes e innovando con la aplicación, mezcla y <em>looks</em> (en español atuendo completo) en sus publicaciones (<em>blogs</em> o <em>videoblogs</em>), convirtiéndose en prescriptores de moda.
 
         .col-lg-10
           .tarjeta-avatar-b.mb-5
@@ -324,24 +436,89 @@
             .tarjeta.color-rosado
               .p-4
                 p Luego se encuentran las comunidades de consumo o la masa, quienes acceden a las tendencias de la moda una vez validada por los anteriores.
-                p.mb-0 (Coolhunting, cazadores de tendencias, s.f.; Estaún, 2018; Fernández, 2017; López, s.f.; Skotnicka, 2013; Wikipedia, s.f.-a)
+                p.mb-0 (<em>Coolhunting</em>, cazadores de tendencias, s.f.; Estaún, 2018; Fernández, 2017; López, s.f.; Skotnicka, 2013; Wikipedia, s.f.-a)
 
       p.mb-5.text-center En el documento adjunto encontrará información que le permitirá explorar un poco más el rol de quienes se han destacado como prescriptores de moda.   
 
+      //- .row.justify-content-center
+      //-   .col-md-6
+      //-     a.anexo(:href="obtenerLink('/downloads/CF4_U1_T4_GestionDeLaInformacion.docx')" target="_blank")
+      //-       .anexo__icono
+      //-         img(src="@/assets/template/icono-doc.svg")
+      //-       .anexo__texto
+      //-         p.text-small
+      //-           b Material complementario para profundizar. 
+      //-           | Profundización
+
+
       .row.justify-content-center
-        .col-md-6
-          a.anexo(:href="obtenerLink('/downloads/CF4_U1_T4_GestionDeLaInformacion.docx')" target="_blank")
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://queesunpersonalshopper.com/2015/09/09/quien-es-quien-en-el-mundo-de-la-moda-2-coolhunter/" target="_blank")
             .anexo__icono
-              img(src="@/assets/template/icono-doc.svg")
+              img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p.text-small
-                b Material complementario para profundizar. 
-                | Profundización
+                b Página web. 
+                | <em>Coolhunting</em> (Wikipedia, s.f.-a)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.iebschool.com/blog/coolhunting-marketing-digital/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Qué es el <em>Coolhunting</em>: Ventajas, Personajes, Fases y Etapas (Estaún, 2018)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://increnta.com/co/blog/coolhunting-el-poder-detras-de-las-tendencias/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | <em>Coolhunting</em>: el poder detrás de las tendencias - INCRENTA - Blog Colombia (Fernández, 2017)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.tribunasalamanca.com/blogs/campamento-marketing/posts/coolhunting-cazadores-de-tendencias" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | <em>Coolhunting</em>, cazadores de tendencias (Coolhunting, cazadores de tendencias, s.f.)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(:href="obtenerLink('downloads/Anexo_V_U1Taller_de_coolhunting_Cazadores_de_tende.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p.text-small
+                b Archivo adjunto. 
+                | Taller de Coolhunting (López, s.f.)
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://www.emotools.com/contents/articulos-y-blogs/ines-skotnicka-coolhunting-o-como-entender-y-cazar" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p.text-small
+                b Archivo adjunto. 
+                | <em>Coolhunting</em>, o cómo entender y cazar las tendencias (Skotnicka, 2013)
+
+        .col-md-6.col-lg-4
+          a.anexo.h-100(:href="obtenerLink('downloads/Anexo_X_U1_Coolhunting editorial, buscando tendencias.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p.text-small
+                b Archivo adjunto. 
+                | <em>Coolhunting</em> editorial, buscando tendencias (Gómez-Tarragona, 2010)
 
       Separador
 
       #t1-5.titulo-segundo
-        h2 1.5 Recopilación y análisis de datos: cuaderno de bocetos, técnicas de dibujo, el collage, yuxtaposición deconstrucción, referencias cruzadas, análisis de la investigación, centrarse en elementos claves (moodboards, storyboards, concepbook).
+        h2 1.5 Recopilación y análisis de datos: cuaderno de bocetos, técnicas de dibujo, el collage, yuxtaposición deconstrucción, referencias cruzadas, análisis de la investigación, centrarse en elementos claves (<em>moodboards, storyboards, concepbook</em>).
 
       .row.justify-content-center.mb-5
         .col-lg-10
@@ -394,14 +571,62 @@
                 img(src='@/assets/curso/t1-20.jpg')
 
       p.mb-5.text-center Para conocer detalles sobre cada una de estas herramientas se le sugiere revisar el siguiente material:
-      
+
       .row.justify-content-center
-        .col-md-6
-          a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://annaand.co/post/que-es-un-moodboard-de-que-sirve-como-se-hace" target="_blank")
             .anexo__icono
-              img(src="@/assets/template/icono-ppt.svg")
+              img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p.text-small Material complementario para profundizar.
+              p.text-small 
+                b Página web. 
+                | ¿Qué-es-un <em>moodboard</em> de qué sirve como se hace? | Anna&Co (Anna&Co, 2019)
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.dsigno.es/blog/diseno-de-moda/moodboard-que-es-y-para-que-sirve" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small 
+                b Página web. 
+                | El <em>moodboard</em>: qué es y para qué sirve. (Blog de DSIGNO, 2017)
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://fotocreativo.com/27-ejemplos-de-yuxtaposicion/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small Ejemplos de yuxtaposición en la fotografía – Fotocreativo (foto news, 2019. Pág, 27)
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.arteneo.com/blog/el-cuaderno-de-bocetos-de-grandes-artistas/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small 
+                b Página web. 
+                | El cuaderno de bocetos de los grandes artistas | Arteneo (Arteneo, 2016)
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.superprof.co/blog/aprender-a-dibujar-que-especialidad/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small 
+                b Página web. 
+                | ¿Cuáles Son las Diferentes Técnicas para Dibujar? (Santiago, 2020)
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.educativo.net/articulos/principales-tecnicas-del-dibujo-artistico-1226.html" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small 
+                b Página web. 
+                | Principales técnicas del dibujo artístico | FUDE (FUDE, s.f.)
+        .col-md-6.col-lg-4
+          a.anexo.h-100(href="https://www.youtube.com/watch?v=fkjgvkujtpk&feature=youtu.be" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small 
+                b Vídeo. 
+                | ¿Cómo definir el concepto de una colección de moda? – YouTube (Tutoriales con la Miss, 2018)
 
       Separador
 
@@ -418,7 +643,7 @@
               | , para lo cual se realiza una estructura previa de la colección, identificando los tipos de productos y cómo se interrelacionan entre sí, con el fin de darle forma a la colección y mantener un hilo conductor, el cual se logra mediante una estrecha relación con el concepto, teniendo en cuenta o formulando 
               b las cartas de color, formas, texturas, materiales, siluetas, procesos y acabados, que se harán tangibles en el producto final
               | . Es decir, cada uno de los productos de la colección corresponderá al concepto desarrollado y entre todos hablarán el mismo lenguaje.
-            p Para el desarrollo de los productos algunos diseñadores recurren al prototipado sobre maniquí, también conocido como drapeado (en inglés Draping), otros al dibujo o a técnicas de sobreposición de imágenes (técnicas vistas en el tema anterior).
+            p Para el desarrollo de los productos algunos diseñadores recurren al prototipado sobre maniquí, también conocido como drapeado (en inglés <em>Draping</em>), otros al dibujo o a técnicas de sobreposición de imágenes (técnicas vistas en el tema anterior).
             p.mb-0 Adaptado de Castillo. s.f.; Corona. 2010; ESME Escuela de moda y empresa. s.f.; Seivewright. 2013; Tutoriales con la Miss. 2018
 
         .col-6
@@ -442,30 +667,63 @@
                       span Ver más
                       i.fas.fa-link
 
-        .col-md-4.mb-4.mb-md-0
-          a.anexo(href="https://fashionandillustration.com/bases-para-disenar-una-coleccion-de-moda/" target="_blank")
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://fashionandillustration.com/bases-para-disenar-una-coleccion-de-moda/" target="_blank")
             .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
+              img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
               p.text-small
                 b Material complementario. 
                 | Bases para diseñar una colección de moda: Guía completa con imágenes y ejemplos.
-        .col-md-4.mb-4.mb-md-0
-          a.anexo(href="https://www.esme.es/los-pasos-para-desarrollar-una-coleccion-de-moda/" target="_blank")
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.esme.es/los-pasos-para-desarrollar-una-coleccion-de-moda/" target="_blank")
             .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
+              img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
               p.text-small 
                 b Material complementario. 
                 | Los pasos para desarrollar una colección de moda | ESME Escuela de Moda y Empresa
-        .col-md-4
-          a.anexo(href="https://issuu.com/corona_baos/docs/thesis" target="_blank")
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://issuu.com/corona_baos/docs/thesis" target="_blank")
             .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
+              img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
               p.text-small
                 b Material complementario. 
                 | Desarrollo de colecciones de moda en la industria textil
+
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.youtube.com/watch?v=fkjgvkujtpk&feature=youtu.be" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | ¿Cómo definir el concepto de una colección de moda? – YouTube. (Tutoriales con la Miss, 2018).
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://fashionandillustration.com/bases-para-disenar-una-coleccion-de-moda/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small 
+                b Página web. 
+                | Bases para diseñar una colección de moda: Guía completa con imágenes y ejemplos.(Castillo, s.f.).
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.esme.es/los-pasos-para-desarrollar-una-coleccion-de-moda/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Los pasos para desarrollar una colección de moda | ESME Escuela de Moda y Empresa. (ESME Escuela de moda y empresa, s.f.).
+        .col-md-6.col-lg-4
+          a.anexo.h-100(href="https://issuu.com/corona_baos/docs/thesis" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Desarrollo de colecciones de moda en la industria textil. (Corona, 2010).
 
       Separador
 
@@ -478,7 +736,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-9.mb-4.mb-lg-0
                 p.mb-0.eb El concepto de comunicación proviene del prefijo “com” de compartir algo con otros; entonces, donde su verdadero sentido está en la intención de 
@@ -491,7 +749,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-9.mb-4.mb-lg-0
                 p.mb-0.eb La palabra expresión proviene del término latino expressus es manifestar los pensamientos y las impresiones de nuestra realidad por medio de la palabra, gestos o actitudes”; “es la representación, a través de símbolos e imágenes de una manifestación de nuestra propia individualidad, y puede estar dirigida o no a otro sujeto” (Hiebaum, 2017).
@@ -500,7 +758,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-9.mb-4.mb-lg-0
                 p.mb-0.eb 
@@ -511,7 +769,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-9.mb-4.mb-lg-0
                 p.mb-0.eb El dibujo es una de las 
@@ -522,7 +780,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-9.mb-4.mb-lg-0
                 p.mb-0.eb 
@@ -537,7 +795,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-9.mb-4.mb-lg-0
                 p.mb-0.eb Luego de usar plantillas y de tener 
@@ -550,7 +808,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-9.mb-4.mb-lg-0
                 p.mb-0.eb Al igual que para el proceso investigativo, para el de comunicación algunos diseñadores acuden al collage como técnica de expresión.
@@ -559,7 +817,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.color-primario--claro.p-4.p-md-5
+          .tarjeta.color-rosado--claro-b.p-4.p-md-5
             .row.align-items-center.justify-content-center
               .col-lg-8.mb-4.mb-lg-0
                 p.eb Al final del proceso investigativo se encuentra 
@@ -570,10 +828,7 @@
               .col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/t1-29.svg')
 
-              .col-12
-                p.mb-0 Adaptado de Cámara Industrial Argentina de la Indumentaria (CIAI). s.f.-a, s.f.-b; Emprende a conciencia, s.f.; Escuela Superior de Diseño de Barcelona, 2018a, 2018b; GonzáLez, s.f.; Hiebaum, 2017; Ras, 2015
-
-      .row.justify-content-center
+      .row.justify-content-center.mb-5
         .col-lg-8
           .tarjeta.color-primario.p-3
             .row.justify-content-around.align-items-center
@@ -584,25 +839,121 @@
                   .col.mb-3.mb-sm-0
                     p.mb-0.text-center Material complementario
                   .col-sm-auto
-                    a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-acento-contenido.texto-blanco(href="http://www.ciaindumentaria.com.ar/plataforma/la-ilustracion-de-moda/" target="_blank")
                       span Ver más
                       i.fas.fa-link
 
+      p.mb-5 daptado de Cámara Industrial Argentina de la Indumentaria (CIAI). s.f.-a, s.f.-b; Emprende a conciencia, s.f.; Escuela Superior de Diseño de Barcelona, 2018a, 2018b; GonzáLez, s.f.; Hiebaum, 2017; Ras, 2015
 
 
+      .row.justify-content-center
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.gestiopolis.com/comunicacion-expresion-lenguaje/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Comunicación, expresión y lenguaje • GestioPolis (Hiebaum, 2017)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.esdesignbarcelona.com/int/expertos-diseno/que-es-el-diseno-creativo-y-como-adquirir-buenas-ideas" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | ¿Qué es el diseño creativo y como adquirir buenas ideas? | ESDESIGN (Escuela Superior de Diseño de Barcelona, 2018b)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.eade.es/blog/185-la-importancia-del-dibujo-en-el-diseno" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | La importancia del dibujo en el diseño (GonzáLez, s.f.)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.esdesignbarcelona.com/int/expertos-diseno/5-tecnicas-de-dibujo-que-han-marcado-tendencia-en-el-diseno" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Cinco (5) técnicas de dibujo que han marcado tendencia en el diseño | ESDESIGN (Escuela Superior de Diseño de Barcelona, 2018a)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.pinterest.es/figurinesdemoda/plantillas-templates-figurines/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Estas imágenes son tomadas del sitio web de la marca registrada Pinterest: Plantillas - Templates - Figurines – Pinterest (Plantillas - Templates - Figurines - Pinterest, s.f.)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="http://www.ciaindumentaria.com.ar/plataforma/la-ilustracion-de-moda/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | La Ilustración de Moda (ciai Cámara Industrial Argentina de la Indumentaria, s.f.-a)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.pinterest.es/lauramontalvope/ilustraciones-de-dise%C3%B1o-de-moda/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Estas imágenes son tomadas del sitio web de la marca registrada Pinterest: Ilustraciones de diseño de moda – Pinterest (Montalvo, s.f.)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.emprendeaconciencia.com/diseno-prototipo" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Diseño de Prototipo — Emprende A Conciencia (Emprende a conciencia, s.f.)
 
+        .col-md-6.col-lg-4.mb-4
+          a.anexo.h-100(href="https://www.sociedaddelainnovacion.es/quieres-prototipar-crea-dibuja-haz-prueba-y-vuelve-a-empezar/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | ¿Quieres prototipar? Crea, dibuja, haz, prueba... ¡y vuelve a empezar! (Ras, 2015)
 
+        .col-md-6.col-lg-4.mb-4.mb-lg-0
+          a.anexo.h-100(href="https://es.slideshare.net/comunionesouiwe/teorica-de-diseode-paneles-para-indumentaria-2014" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p.text-small
+                b Archivo adjunto. 
+                | Teoría de diseño de paneles para indumentaria 2014. (Comunicaciones Oui-we, 2014)
 
+        .col-md-6.col-lg-4.mb-4.mb-md-0
+          a.anexo.h-100(href="http://www.ciaindumentaria.com.ar/plataforma/paneles-de-tendencia/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Paneles de tendencia (ciai Cámara Industrial Argentina de la Indumentaria, s.f.-b)
 
-
-
+        .col-md-6.col-lg-4
+          a.anexo.h-100(href="https://ar.pinterest.com/castapablo/paneles-de-indumentaria/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p.text-small
+                b Página web. 
+                | Estas imágenes son tomadas del sitio web de la marca registrada Pinterest:  Paneles de indumentaria – Pinterest (Castaño, s.f.)
 
 </template>
 
