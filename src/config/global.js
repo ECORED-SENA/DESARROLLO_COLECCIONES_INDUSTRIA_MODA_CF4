@@ -703,11 +703,313 @@ export default {
   ],
   complementario: [
     {
+      texto: 'Investigación de Campo. (QuestionPro, s.f.-b) ',
+      tipo: 'Página web',
+      link: 'https://www.questionpro.com/es/investigacion-de-campo.html',
+    },
+    {
+      texto:
+        'La investigación y análisis de tendencias como nueva aliada en la estrategia (ESIC Business Marketing School, 2018) ',
+      tipo: 'Página web',
+      link:
+        'https://www.esic.edu/rethink/management/la-investigacion-analisis-tendencias-nueva-aliada-la-estrategia',
+    },
+    {
+      texto:
+        'Cómo elegir y delimitar el tema (PROYECTO DE INVESTIGACIÓN) – YouTube (Massarik, 2018) ',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=zsqemeClPqQ',
+    },
+    {
+      texto:
+        'Qué son las fuentes de información primarias en una investigación documental – YouTube (Massarik, 2020) ',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=SWCeVdlYnDA',
+    },
+    {
+      texto:
+        'Tendencias: qué son, quién las decide y cuánto duran | GQ España (J. Girela, 2020) ',
+      tipo: 'Página web',
+      link:
+        'https://www.revistagq.com/moda/articulo/tendencias-que-son-comos-se-deciden-cuanto-duran',
+    },
+    {
+      texto:
+        'Tipos de tendencias: macrotendencias y microtendencias | Gemma Fradera (Fradera, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'http://gemmafraderabcn.com/tipos-de-tendencias-macrotendencias-y-microtendencias/',
+    },
+    {
+      texto: 'LaMacrotendeciaUsoYFuncion. (Durazo, 2018) y ',
+      tipo: 'Artículo',
+      link: [
+        'http://apttperu.com/la-macrotendencia-uso-y-funcion-dentro-de-una-empresa-de-moda/',
+        'http://apttperu.com/wp-content/uploads/2018/07/La-macrotendecia.pdf',
+      ],
+    },
+    {
+      texto:
+        '¿Qué es una macrotendencia? – YouTube (Marin & Telas Lafayette, 2017) ',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=ZL4H8EYoRUo&feature=youtu.be',
+    },
+    {
+      texto:
+        '¿Cómo son las tendencias? El tamaño importa un poco, pero solo a veces - ELISABET ROSELLÓ (Roselló, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'http://elisabetrosello.com/como-son-las-tendencias-el-tamano-importa-un-poco-pero-solo-a-veces/',
+    },
+    {
+      texto:
+        'Macrotendencias: direccionando a la moda y los negocios en el contexto mundial (Mendoza, 2017) ',
+      tipo: 'Página web',
+      link:
+        'https://www.businessalamode.com/post/2017/09/08/macrotendencias-direccionando-a-la-moda-y-los-negocios-en-el-contexto-mundial',
+    },
+    {
+      texto:
+        'Qué son las tendencias, quién las decide y cuánto duran | Está to guapo | GQ España (Javier Girela & GQ Spain, 2020) Nota: Vídeo destacado ',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=y2F71c9Pi_8&feature=youtu.be',
+    },
+    {
+      texto: 'Tendencia y Megatendencia – YouTube (Gallegos, 2016) ',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=PAb6BTBW6X4&feature=youtu.be',
+    },
+    {
+      texto: 'Base de datos. Sistema de bibliotecas SENA (SENA, s.f.) ',
+      tipo: 'Página web',
+      link: 'http://biblioteca.sena.edu.co/paginas/bases.html',
+    },
+    {
+      texto:
+        'Base de datos. Sistema de bibliotecas SENA - Acceso a Fashion Snoop (Fashion Snoops, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'https://login.bdigital.sena.edu.co/login?qurl=https%3A%2F%2Fwww.fashionsnoops.com',
+    },
+    {
+      texto: 'Bases de datos. Pasalapágina (Pasalapágina, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'https://login.bdigital.sena.edu.co/login?qurl=http%3A%2F%2Fpasalapagina.com%2Fhome-sena.html',
+    },
+    {
+      texto: 'Coolhunting (Wikipedia, s.f.-a) ',
+      tipo: 'Página web',
+      link:
+        'http://queesunpersonalshopper.com/2015/09/09/quien-es-quien-en-el-mundo-de-la-moda-2-coolhunter/.',
+    },
+    {
+      texto:
+        'Qué es el Coolhunting: Ventajas, Personajes, Fases y Etapas (Estaún, 2018) ',
+      tipo: 'Página web',
+      link: 'https://www.iebschool.com/blog/coolhunting-marketing-digital/',
+    },
+    {
+      texto:
+        'Coolhunting: el poder detrás de las tendencias - INCRENTA - Blog Colombia (Fernández, 2017) ',
+      tipo: 'Página web',
+      link:
+        'http://increnta.com/co/blog/coolhunting-el-poder-detras-de-las-tendencias/',
+    },
+    {
+      texto:
+        'Coolhunting, cazadores de tendencias (Coolhunting, cazadores de tendencias, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'https://www.tribunasalamanca.com/blogs/campamento-marketing/posts/coolhunting-cazadores-de-tendencias',
+    },
+    {
+      texto: 'Taller de Coolhunting ',
+      tipo: 'PDF',
+      link:
+        'https://www.academia.edu/36524596/Taller_de_coolhunting_Cazadores_de_tendencias',
+    },
+    {
+      texto:
+        'Coolhunting, o cómo entender y cazar las tendencias (Skotnicka, 2013) y ',
+      tipo: 'PDF',
+      link:
+        'http://www.emotools.com/contents/articulos-y-blogs/ines-skotnicka-coolhunting-o-como-entender-y-cazar/',
+    },
+    {
+      texto:
+        '¿Qué-es-un moodboard de que sirve como se hace? | Anna&Co (Anna&Co, 2019) ',
+      tipo: 'Página web',
+      link:
+        'https://annaand.co/post/que-es-un-moodboard-de-que-sirve-como-se-hace',
+    },
+    {
+      texto: 'El moodboard: qué es y para qué sirve. (Blog de DSIGNO, 2017) ',
+      tipo: 'Página web',
+      link:
+        'https://www.dsigno.es/blog/diseno-de-moda/moodboard-que-es-y-para-que-sirve',
+    },
+    {
+      texto:
+        'Ejemplos de yuxtaposición en la fotografía – Fotocreativo (Foto news, 2019; Pág. 27) ',
+      tipo: 'Página web',
+      link: 'https://fotocreativo.com/27-ejemplos-de-yuxtaposicion/',
+    },
+    {
+      texto:
+        'El cuaderno de bocetos de los grandes artistas | Arteneo (Arteneo, 2016) ',
+      tipo: 'Página web',
+      link:
+        'https://www.arteneo.com/blog/el-cuaderno-de-bocetos-de-grandes-artistas/',
+    },
+    {
+      texto:
+        '¿Cuáles Son las Diferentes Técnicas para Dibujar? (Santiago, 2020) ',
+      tipo: 'Página web',
+      link:
+        'https://www.superprof.co/blog/aprender-a-dibujar-que-especialidad/',
+    },
+    {
+      texto: 'Principales técnicas del dibujo artístico | FUDE (FUDE, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'https://www.educativo.net/articulos/principales-tecnicas-del-dibujo-artistico-1226.html',
+    },
+    {
+      texto:
+        '¿Cómo definir el concepto de una colección de moda? – YouTube (Tutoriales con la Miss, 2018) ',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=fkjgvkujtpk&feature=youtu.be',
+    },
+    {
+      texto:
+        'Bases para diseñar una colección de moda: Guía completa con imágenes y ejemplos (Castillo, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'https://fashionandillustration.com/bases-para-disenar-una-coleccion-de-moda/',
+    },
+    {
+      texto:
+        'Los pasos para desarrollar una colección de moda | ESME Escuela de Moda y Empresa (ESME Escuela de moda y empresa, s.f.) ',
+      tipo: 'Página',
+      link:
+        'https://www.esme.es/los-pasos-para-desarrollar-una-coleccion-de-moda/',
+    },
+    {
+      texto:
+        'Desarrollo de colecciones de moda en la industria textil (Corona, 2010) ',
+      tipo: 'Tesis en Página web',
+      link: 'https://issuu.com/corona_baos/docs/thesis',
+    },
+    {
+      texto:
+        'Comunicación, expresión y lenguaje • GestioPolis (Hiebaum, 2017) ',
+      tipo: 'Página web',
+      link: 'https://www.gestiopolis.com/comunicacion-expresion-lenguaje/',
+    },
+    {
+      texto:
+        '¿Qué es el diseño creativo y como adquirir buenas ideas? | ESDESIGN (Escuela Superior de Diseño de Barcelona, 2018b) ',
+      tipo: 'Página web',
+      link:
+        'https://www.esdesignbarcelona.com/int/expertos-diseno/que-es-el-diseno-creativo-y-como-adquirir-buenas-ideas',
+    },
+    {
+      texto: 'La importancia del dibujo en el diseño (GonzáLez, s.f.) ',
+      tipo: 'Página web',
+      link:
+        'https://www.eade.es/blog/185-la-importancia-del-dibujo-en-el-diseno',
+    },
+    {
+      texto:
+        'Técnicas de dibujo que han marcado tendencia en el diseño | ESDESIGN (Escuela Superior de Diseño de Barcelona, 2018a) ',
+      tipo: 'Página web',
+      link:
+        'https://www.esdesignbarcelona.com/int/expertos-diseno/5-tecnicas-de-dibujo-que-han-marcado-tendencia-en-el-diseno',
+    },
+    {
+      texto:
+        'Plantillas - Templates - Figurines – Pinterest (Plantillas - Templates - Figurines - Pinterest, s.f.) ',
+      tipo: 'Imágenes de Pinterest',
+      link:
+        'https://www.pinterest.es/figurinesdemoda/plantillas-templates-figurines/',
+    },
+    {
+      texto:
+        'Plantillas - Templates - Figurines – Pinterest (Plantillas - Templates - Figurines - Pinterest, s.f.) ',
+      tipo: 'Imágenes de Pinterest',
+      link:
+        'https://www.pinterest.es/figurinesdemoda/plantillas-templates-figurines/',
+    },
+    {
+      texto:
+        'La Ilustración de Moda (ciai Cámara Industrial Argentina de la Indumentaria, s.f.-a) ',
+      tipo: 'Página web',
+      link:
+        'http://www.ciaindumentaria.com.ar/plataforma/la-ilustracion-de-moda/',
+    },
+    {
+      texto: 'Ilustraciones de diseño de moda – Pinterest (Montalvo, s.f.) ',
+      tipo: 'Imágenes de Pinterest',
+      link:
+        'https://www.pinterest.es/lauramontalvope/ilustraciones-de-diseño-de-moda/',
+    },
+    {
+      texto:
+        'Diseño de Prototipo — Emprende A Conciencia (Emprende a conciencia, s.f.) ',
+      tipo: 'Página web',
+      link: 'https://www.emprendeaconciencia.com/diseno-prototipo',
+    },
+    {
+      texto:
+        '¿Quieres prototipar? Crea, dibuja, haz, prueba... ¡y vuelve a empezar! (Ras, 2015) ',
+      tipo: 'Página web',
+      link:
+        'https://www.sociedaddelainnovacion.es/quieres-prototipar-crea-dibuja-haz-prueba-y-vuelve-a-empezar/',
+    },
+    {
+      texto:
+        'TeoricaDeDiseñoDePanelesParaIndumentaria2014. (Comunicaciones Oui-we, 2014) ',
+      tipo: 'Archivo adjunto y Página web',
+      link:
+        'https://es.slideshare.net/comunionesouiwe/teorica-de-diseode-paneles-para-indumentaria-2014',
+    },
+    {
+      texto:
+        'Paneles de tendencia (ciai Cámara Industrial Argentina de la Indumentaria, s.f.-b) ',
+      tipo: 'Página web',
+      link:
+        'http://www.ciaindumentaria.com.ar/plataforma/paneles-de-tendencia/',
+    },
+    {
+      texto: 'Paneles de indumentaria – Pinterest (Castaño, s.f.) ',
+      tipo: 'Imágenes de Pinterest',
+      link: 'https://ar.pinterest.com/castapablo/paneles-de-indumentaria/',
+    },
+    {
+      texto: 'Artículo Nicho de Mercado. ¿Cómo encontrarlo? ',
+      tipo: 'Enlace Página web',
+      link:
+        'https://elnuevoempresario.com/nicho-de-mercado-como-encontrarlo#gs.cnt6n6',
+    },
+    {
+      texto: 'Informe de tendencies de Lafayette ',
+      tipo: 'Enlace a Página web',
+      link: 'https://nextlab.lafayette.com/',
+    },
+    {
       texto:
         'Manterola & Tamara Otzen, (2013) Por qué investigar y cómo conducir una investigación.',
       tipo: 'PDF',
       descarga:
         '/downloads/Anexo B_U1_Por_ que_Investigar_y_Como_Conducir_una_Investigacion.pdf',
+    },
+    {
+      texto:
+        'Coolhunting editorial, buscando tendencias (Gómez-Tarragona, 2010).',
+      tipo: 'PDF',
+      descarga:
+        '/downloads/Anexo_X_U1_Coolhunting editorial, buscando tendencias.pdf',
     },
     {
       texto:
@@ -760,9 +1062,20 @@ export default {
       descarga: '/downloads/StoryBoard.pdf',
     },
     {
-      texto: 'Comunicación, expresión y lenguaje • GestioPolis (Hiebaum, 2017)',
+      texto: 'Los consumidores, clientes y usuarios',
       tipo: 'PDF',
-      link: 'https://www.gestiopolis.com/comunicacion-expresion-lenguaje/',
+      descarga:
+        '/downloads/Anexo_D_U2_ Los consumidores_clientes_y_usuarios.pdf',
+    },
+    {
+      texto: 'Profundizacion',
+      tipo: 'Documento de word',
+      descarga: '/downloads/CF4_U1_T3_Profundizacion.docx',
+    },
+    {
+      texto: 'Figuras y graficos',
+      tipo: 'Documento de Power point',
+      descarga: '/downloads/CF4_FigurasYGraficos.pptx',
     },
   ],
   creditos: {
