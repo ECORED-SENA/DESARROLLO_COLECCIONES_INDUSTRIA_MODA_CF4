@@ -252,7 +252,7 @@ export default {
     },
     {
       referencia:
-        'ESIC Business Marketing School. (2018). La investigación y análisis de tendencias como nueva aliada en la estrategia. ESIC. ',
+        'ESIC <em>Business Marketing School</em>. (2018). La investigación y análisis de tendencias como nueva aliada en la estrategia. ESIC. ',
       link:
         'https://www.esic.edu/rethink/management/la-investigacion-analisis-tendencias-nueva-aliada-la-estrategia',
     },
@@ -264,7 +264,7 @@ export default {
     },
     {
       referencia:
-        'Estaún, M. (2018). Qué es el <em>Coolhunting</em>: Ventajas, Personajes, Fases y Etapas. Marketing Digital IEBS. ',
+        'Estaún, M. (2018). Qué es el <em>Coolhunting</em>: Ventajas, Personajes, Fases y Etapas. <em>Marketing</em> Digital IEBS. ',
       link: 'https://www.iebschool.com/blog/coolhunting-marketing-digital/',
     },
     {
@@ -336,7 +336,7 @@ export default {
     },
     {
       referencia:
-        'Guerrero, J. A. (200). Nuevas tecnologías aplicadas a la moda: diseño, producción, marketing y comunicación. Parramón. ',
+        'Guerrero, J. A. (200). Nuevas tecnologías aplicadas a la moda: diseño, producción, <em>marketing</em> y comunicación. Parramón. ',
     },
     {
       referencia:
@@ -371,7 +371,7 @@ export default {
     },
     {
       referencia:
-        'Martorell, N. (2020). Qué son y para qué sirven las 4 Ps y 7 Ps del Marketing Mix. ',
+        'Martorell, N. (2020). Qué son y para qué sirven las 4 Ps y 7 Ps del <em>Marketing Mix</em>. ',
       link: 'https://noeliamartorell.com/marketing-mix/',
     },
     {
@@ -381,7 +381,7 @@ export default {
     },
     {
       referencia:
-        'Martínez, G. (2018). Marketing y comunicación de moda. ESIC Editorial. ',
+        'Martínez, G. (2018). <em>Marketing</em> y comunicación de moda. ESIC Editorial. ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/123405?page=104',
     },
@@ -427,7 +427,7 @@ export default {
     },
     {
       referencia:
-        'Posner, H. (2015). Marketing de moda (2a. ed.). Editorial Gustavo Gili.',
+        'Posner, H. (2015). <em>Marketing</em> de moda (2a. ed.). Editorial Gustavo Gili.',
       link: 'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/',
     },
     {
@@ -660,7 +660,7 @@ export default {
     {
       termino: 'Mix de mercadeo',
       significado:
-        'Se denomina mezcla de mercadotecnia o mix comercial (conocido en el mundo como marketing mix) a las herramientas o variables de las que dispone el responsable de la mercadotecnia para cumplir con los objetivos de la compañía. Son las estrategias de marketing, o esfuerzo de mercadotecnia y deben incluirse en el plan de marketing (plan 0c). La empresa usa esta estrategia cuando busca acaparar mayor clientela. Y por eso se lo considera importante. Como la rama más esencial.',
+        'Se denomina mezcla de mercadotecnia o mix comercial (conocido en el mundo como <em>marketing mix</em>) a las herramientas o variables de las que dispone el responsable de la mercadotecnia para cumplir con los objetivos de la compañía. Son las estrategias de <em>marketing</em>, o esfuerzo de mercadotecnia y deben incluirse en el plan de <em>marketing</em> (plan 0c). La empresa usa esta estrategia cuando busca acaparar mayor clientela. Y por eso se lo considera importante. Como la rama más esencial.',
     },
     {
       termino: 'Nicho de mercado',
@@ -682,7 +682,7 @@ export default {
     {
       termino: 'Segmento de mercado',
       significado:
-        'Como su propio nombre indica, se trata de identificar segmentos de [Mercado (Marketing)(mercado)] o grupos uniformes más pequeños, pues la segmentación de un mercado en muchos mercados se puede asociar, de acuerdo a sus características o variables que puedan influir en su comportamiento de compra.',
+        'Como su propio nombre indica, se trata de identificar segmentos de [Mercado (<em>Marketing</em>)(mercado)] o grupos uniformes más pequeños, pues la segmentación de un mercado en muchos mercados se puede asociar, de acuerdo a sus características o variables que puedan influir en su comportamiento de compra.',
     },
     {
       termino: 'Tema',
@@ -709,7 +709,7 @@ export default {
     },
     {
       texto:
-        'La investigación y análisis de tendencias como nueva aliada en la estrategia (ESIC Business Marketing School, 2018) ',
+        'La investigación y análisis de tendencias como nueva aliada en la estrategia (ESIC <em>Business Marketing School</em>, 2018) ',
       tipo: 'Página web',
       link:
         'https://www.esic.edu/rethink/management/la-investigacion-analisis-tendencias-nueva-aliada-la-estrategia',
@@ -798,43 +798,41 @@ export default {
         'https://login.bdigital.sena.edu.co/login?qurl=http%3A%2F%2Fpasalapagina.com%2Fhome-sena.html',
     },
     {
-      texto: 'Coolhunting (Wikipedia, s.f.-a) ',
+      texto: '<em>Coolhunting</em> (Wikipedia, s.f.-a) ',
       tipo: 'Página web',
       link:
         'http://queesunpersonalshopper.com/2015/09/09/quien-es-quien-en-el-mundo-de-la-moda-2-coolhunter/.',
     },
     {
       texto:
-        'Qué es el Coolhunting: Ventajas, Personajes, Fases y Etapas (Estaún, 2018) ',
+        'Qué es el <em>Coolhunting</em>: Ventajas, Personajes, Fases y Etapas (Estaún, 2018) ',
       tipo: 'Página web',
       link: 'https://www.iebschool.com/blog/coolhunting-marketing-digital/',
     },
     {
       texto:
-        'Coolhunting: el poder detrás de las tendencias - INCRENTA - Blog Colombia (Fernández, 2017) ',
+        '<em>Coolhunting</em>: el poder detrás de las tendencias - INCRENTA - Blog Colombia (Fernández, 2017) ',
       tipo: 'Página web',
       link:
         'http://increnta.com/co/blog/coolhunting-el-poder-detras-de-las-tendencias/',
     },
     {
       texto:
-        'Coolhunting, cazadores de tendencias (Coolhunting, cazadores de tendencias, s.f.) ',
+        '<em>Coolhunting</em>, cazadores de tendencias (<em>Coolhunting</em>, cazadores de tendencias, s.f.) ',
       tipo: 'Página web',
       link:
         'https://www.tribunasalamanca.com/blogs/campamento-marketing/posts/coolhunting-cazadores-de-tendencias',
     },
     {
-      texto: 'Taller de Coolhunting ',
+      texto: 'Taller de <em>Coolhunting</em> ',
       tipo: 'PDF',
-      link:
-        'https://www.academia.edu/36524596/Taller_de_coolhunting_Cazadores_de_tendencias',
+      descarga: 'downloads/Taller_de_coolhunting_Cazadores_de_tende.pdf',
     },
     {
       texto:
-        'Coolhunting, o cómo entender y cazar las tendencias (Skotnicka, 2013) y ',
-      tipo: 'PDF',
-      link:
-        'http://www.emotools.com/contents/articulos-y-blogs/ines-skotnicka-coolhunting-o-como-entender-y-cazar/',
+        '<em>Coolhunting</em>, o cómo entender y cazar las tendencias (Skotnicka, 2013) y ',
+      tipo: 'Página web',
+      descarga: 'downloads/articulo_ines_coolhunt.pdf',
     },
     {
       texto:
@@ -1093,6 +1091,65 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Marisol Osorio',
+        cargo: 'Líder Sennova',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'María Luisa Yepes',
+        cargo: 'Instructora',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Fabio Andrés Gaviria',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Luis Alfonso Hincapie Echeverri',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Idian Fernando López Agudelo',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Ruth Elena Morales Ríos',
+        cargo: 'Instructora',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Victoria Morales Gualdrón',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro para la comunicación de la Industria Gráfica Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Evaluador Instruccional',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capita',
+      },
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Julieth Paola Vital',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la comunicación de la Industria Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -1107,25 +1164,25 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Marcela González Gómez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
