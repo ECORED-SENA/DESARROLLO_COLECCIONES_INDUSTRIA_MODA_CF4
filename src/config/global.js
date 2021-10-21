@@ -1089,66 +1089,66 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Marisol Osorio',
         cargo: 'Líder Sennova',
         centro:
-          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'María Luisa Yepes',
         cargo: 'Instructora',
         centro:
-          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Fabio Andrés Gaviria',
         cargo: 'Instructor',
         centro:
-          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Luis Alfonso Hincapie Echeverri',
         cargo: 'Instructor',
         centro:
-          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Idian Fernando López Agudelo',
         cargo: 'Instructor',
         centro:
-          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Ruth Elena Morales Ríos',
         cargo: 'Instructora',
         centro:
-          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+          'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
       },
       {
         nombre: 'Liliana Victoria Morales Gualdrón',
         cargo: 'Diseñador Instruccional',
         centro:
-          'Centro para la comunicación de la Industria Gráfica Regional Distrito Capital',
+          'Centro para la comunicación de la Industria Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Evaluador Instruccional',
-        centro: 'Centro de Diseño y Metrología Regional Distrito Capita',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capita',
       },
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Julieth Paola Vital',
         cargo: 'Corrector de estilo',
         centro:
-          'Centro para la comunicación de la Industria Gráfica Regional Distrito Capital',
+          'Centro para la comunicación de la Industria Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -1156,43 +1156,43 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Marcela González Gómez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
