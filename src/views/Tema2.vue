@@ -30,7 +30,7 @@
         .col-md-5.mb-5
           p.eb Cuando hablamos de mercadeo 
             b se analizan y estudian las necesidades o gustos 
-            | de un público, para crearlas o satisfacerlas en un segmento del mercado específico; en éste intervienen varios elementos, siendo uno de los principales el análisis del entorno en el cual se va a comercializar, teniendo en cuenta factores culturales, sociales, económicos y geográficos que determinan muchas de las características del producto a ofrecer.
+            | de un público, para crearlas o satisfacerlas en un segmento del mercado específico; en este intervienen varios elementos, siendo uno de los principales el análisis del entorno en el cual se va a comercializar, teniendo en cuenta factores culturales, sociales, económicos y geográficos que determinan muchas de las características del producto a ofrecer.
 
         .col-md-5.mb-5
           p.eb En este análisis, es primordial el 
@@ -119,7 +119,7 @@
               b investigar la competencia
               | , para 
               b generar nuevos, diferentes o mejorados productos
-              | , bienes y servicios. Darle importancia a la competencia es fundamental para la permanecer en el mercado y hacerlo dentro del marco del libre comercio y las regulaciones existentes en cada país, lo cual genera equilibrio en la cadena productiva.
+              | , bienes y servicios. Darle importancia a la competencia es fundamental para permanecer en el mercado y hacerlo dentro del marco del libre comercio y las regulaciones existentes en cada país, lo cual genera equilibrio en la cadena productiva.
           .col-md-6
             figure.tarjeta
               img(src='@/assets/curso/t2-10.jpg')
@@ -246,7 +246,7 @@
         .col-lg-6.mb-5
           p.eb Mercados emergentes: son sectores geográficamente establecidos y determinados, donde se percibe un 
             b desarrollo económico en crecimiento 
-            | y es posible tener diferentes y novedosos productos y servicios para su consumo local. En los mercados emergentes las marcas y la competencia se encuentran en iguales condiciones de impacto, todos tienen la misma posibilidad de entrar y participar en él, porque éste aún no tiene manejos previos de consumo ni condiciones de comercialización; son realmente una gran posibilidad de penetración y crecimiento económico para las empresas, algunos mercados emergentes en la actualidad pueden ser China, India, Rusia y otras regiones en el mundo, incluyendo Colombia.
+            | y es posible tener diferentes y novedosos productos y servicios para su consumo local. En los mercados emergentes las marcas y la competencia se encuentran en iguales condiciones de impacto, todos tienen la misma posibilidad de entrar y participar en él, porque este aún no tiene manejos previos de consumo ni condiciones de comercialización; son realmente una gran posibilidad de penetración y crecimiento económico para las empresas, algunos mercados emergentes en la actualidad pueden ser China, India, Rusia y otras regiones en el mundo, incluyendo Colombia.
 
         .col-12.mb-5
           p.mb-0 Segmentos emergentes: se definen como grupos de personas que experimentan cambios en su estilo de vida obteniendo nuevas experiencias, productos y servicios de una categoría diferenciada y especial. Todos estos sujetos están dentro de un segmento del mercado que está fortalecido y en proyección al crecimiento. Algunos de los segmentos emergentes a tener en cuenta son:
@@ -367,7 +367,7 @@
             p Las 4p´s del mercadeo
             p.eb Las estrategias de mercadeo están compuestas por 4p´s, que son sus elementos fundamentales: 
               b Producto, Precio, Plaza y Promoción
-              | , todos se integran como si fuera una “receta de cocina”, cada uno tiene un lugar importante dentro de la planeación de la estrategia, pero también cada uno de ellos puede generar sus propias acciones en una combinación especifica según los alcances del plan de mercadeo de la marca.
+              | , todos se integran como si fuera una “receta de cocina”, cada uno tiene un lugar importante dentro de la planeación de la estrategia, pero también cada uno de ellos puede generar sus propias acciones en una combinación específica según los alcances del plan de mercadeo de la marca.
             p Con cada una de las 4p´s, las marcas pueden generar sus propias estrategias de mercadeo, por ejemplo:
 
         .col-md-6.p-5.solo-fondo(
@@ -392,7 +392,7 @@
               img(src='@/assets/curso/q-2.svg')
             .tarjetas-colores__item__text.p-4
               h3 Las estrategias de Precio
-              p.mb-0 Siempre tienen que ver con la asignación de precio para los productos y servicios, la forma y condiciones de pago, cómo se asigna el precio, descuentos, el dinero que invierte el cliente para pagar por el producto o servicio; ósea, todo lo que produzca márgenes de utilidad y ganancia. Esto depende de la intención de cada marca y de su participación en el segmento deseado.
+              p.mb-0 Siempre tienen que ver con la asignación de precio para los productos y servicios, la forma y condiciones de pago, cómo se asigna el precio, descuentos, el dinero que invierte el cliente para pagar por el producto o servicio; o sea, todo lo que produzca márgenes de utilidad y ganancia. Esto depende de la intención de cada marca y de su participación en el segmento deseado.
 
         .tarjetas-colores__item
           .tarjetas-colores__item__content
@@ -452,7 +452,7 @@ export default {
         },
         {
           titulo: 'Gestión del mercadeo',
-          texto: `<p class="mb-4">El análisis de las variables anteriores, es lo que se llama gestión delmercadeo, que hace para posicionar productos y servicios al precio adecuado, en el lugar preciso y con la promoción correcta para el mercado específico.</p>
+          texto: `<p class="mb-4">El análisis de las variables anteriores, es lo que se llama gestión del mercadeo, que hace para posicionar productos y servicios al precio adecuado, en el lugar preciso y con la promoción correcta para el mercado específico.</p>
           <a href="${this.obtenerLink(
             '/downloads/Anexo_D_U2_ Los consumidores_clientes_y_usuarios.pdf',
           )}" target="_blank" class="anexo"><div class="anexo__icono"><img src="${require('@/assets/template/icono-ppt.svg')}"></div><div class="anexo__texto"><p class="text-small"><b>Documento. </b> Los consumidores, clientes y usuarios.</p></div></a>`,

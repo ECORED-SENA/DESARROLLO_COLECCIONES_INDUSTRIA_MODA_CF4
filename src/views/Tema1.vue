@@ -66,7 +66,7 @@
                             b enfoque 
                             | va 
                             b dirigido hacia la inspiración visual de la colección
-                            | , el tema, el Mood, los materiales e insumos a trabajar, siempre teniendo como eje central al consumidor.
+                            | , el tema, el <i>Mood</i>, los materiales e insumos a trabajar, siempre teniendo como eje central al consumidor.
             .col-lg.p-0
                 .card-color.color-5
                     .card-color__header
@@ -101,13 +101,13 @@
                                           span Ver más
                                           i.fas.fa-link
                     .text-center
-                        a.anexo.d-inline-block(:href="obtenerLink('/downloads/Anexo B_U1_Por_ que_Investigar_y_Como_Conducir_una_Investigacion.pdf')" target="_blank")
+                        a.anexo.d-inline-block(:href="obtenerLink('/downloads/Anexo_B_U1_Por_ que_Investigar_y_Como_Conducir_una_Investigacion.pdf')" target="_blank")
                             .anexo__icono
                                 img(src="@/assets/template/icono-pdf.svg")
                             .anexo__texto
                                 p.text-small
                                     b Artículo. 
-                                    | Porqué Investigar y cómo conducir una Investigación
+                                    | Por qué Investigar y cómo conducir una Investigación
 
             Separador
 
@@ -267,27 +267,9 @@
                                         p.eb.text-small El SENA cuenta con un amplio abanico de posibilidades, tanto para las fuentes de información, como para las de inspiración, condensadas en el sistema de bibliotecas, accediendo a las bases de datos como e-libro (base de datos para consultar libros en línea), Fashion Snoop (base de datos de tendencias de moda), Pasalapágina (base de datos de revistas), IRIS (sistema de consulta bibliográfica nacional). 
                                         p.text-small.mb-0 Adaptado de: Fradera, s.f.; Roselló. s.f.; Seivewright. 2013; Silvestrini & Vargas. 2008.
 
-                        .linea-tiempo-d__item.row
-                            .col-auto.linea-tiempo-d__item__col-number
-                                .linea-tiempo-d__item__number.tarjeta.color-secundario
-                                    span 7
-                                .linea-tiempo-d__item__dots
-
-                            .col.pb-3
-                                .linea-tiempo-d__item__content.tarjeta.tarjeta--azul
-                                    .linea-tiempo-d__item__content__slot.p-3
-                                        p.eb.text-small Revise este material para la profundización del tema.
-
-                                        a.anexo(:href="obtenerLink('/downloads/CF4_U1_T3_Profundizacion.docx')" target="_blank")
-                                            .anexo__icono
-                                                img(src="@/assets/template/icono-doc.svg")
-                                            .anexo__texto
-                                                p.text-small
-                                                    b Anexo. 
-                                                    | Material complementario para profundizar.
 
         .px-4.pt-4.px-md-5.pt-md-5.color-rosado--claro
-
+            p.text-center.mb-5 Revise este material para la profundización del tema.
             .row.justify-content-center
                 .col-md-6.col-lg-4.mb-4
                     a.anexo.h-100(href="https://www.youtube.com/watch?v=SWCeVdlYnDA" target="_blank")
@@ -504,7 +486,7 @@
                                 | <em>Coolhunting</em>, o cómo entender y cazar las tendencias (Skotnicka, 2013)
 
                 .col-md-6.col-lg-4
-                    a.anexo.h-100(:href="obtenerLink('downloads/Anexo_X_U1_Coolhunting editorial, buscando tendencias.pdf')" target="_blank")
+                    a.anexo.h-100(:href="obtenerLink('downloads/Anexo_X_U1_Coolhunting_editorial_buscando_tendenciass.pdf')" target="_blank")
                         .anexo__icono
                             img(src="@/assets/template/icono-pdf.svg")
                         .anexo__texto
@@ -628,7 +610,7 @@
             Separador
 
             #t1-6.titulo-segundo
-                h2 1.6 Estructura y forma de la colección: interpretación del concepto de la colección, cartas de color, formas, texturas, materiales, siluetas, procesos y acabados)
+                h2 1.6 Estructura y forma de la colección: interpretación del concepto de la colección, cartas de color, formas, texturas, materiales, siluetas, procesos y acabados
 
             .row.justify-content-center.mb-4
                 .col-md-6
@@ -694,7 +676,7 @@
                     .tarjeta.color-rosado--claro-b.p-4.p-md-5
                         .row.align-items-center.justify-content-center
                             .col-lg-9.mb-4.mb-lg-0
-                                p.mb-0.eb La palabra expresión proviene del término latino expressus es manifestar los pensamientos y las impresiones de nuestra realidad por medio de la palabra, gestos o actitudes”; “es la representación, a través de símbolos e imágenes de una manifestación de nuestra propia individualidad, y puede estar dirigida o no a otro sujeto” (Hiebaum, 2017).
+                                p.mb-0.eb La palabra expresión proviene del término latino expressus es manifestar los pensamientos y las impresiones de nuestra realidad por medio de la palabra, gestos o actitudes; “es la representación, a través de símbolos e imágenes de una manifestación de nuestra propia individualidad, y puede estar dirigida o no a otro sujeto” (Hiebaum, 2017).
                             .col-6.col-lg-3
                                 img(src='@/assets/curso/t1-23.svg')
 
@@ -764,7 +746,7 @@
                             .col-lg-4.mb-4.mb-lg-0
                                 img(src='@/assets/curso/t1-29.svg')
 
-            p.mb-5 daptado de Cámara Industrial Argentina de la Indumentaria (CIAI). s.f.-a, s.f.-b; Emprende a conciencia, s.f.; Escuela Superior de Diseño de Barcelona, 2018a, 2018b; GonzáLez, s.f.; Hiebaum, 2017; Ras, 2015
+            p.mb-5 Adaptado de Cámara Industrial Argentina de la Indumentaria (CIAI). s.f.-a, s.f.-b; Emprende a conciencia, s.f.; Escuela Superior de Diseño de Barcelona, 2018a, 2018b; GonzáLez, s.f.; Hiebaum, 2017; Ras, 2015
 
             .row.justify-content-center
                 .col-md-6.col-lg-4.mb-4

@@ -58,7 +58,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo:
-              'Estructura y forma de la colección: interpretación del concepto de la colección, cartas de color, formas, texturas, materiales, siluetas, procesos y acabados)',
+              'Estructura y forma de la colección: interpretación del concepto de la colección, cartas de color, formas, texturas, materiales, siluetas, procesos y acabados',
             hash: 't1-6',
           },
           {
@@ -66,7 +66,7 @@ export default {
             numero: '1.7',
             titulo:
               'Comunicación de las ideas: dibujo aplicado al diseño, plantillas, ilustraciones, collage, dibujo de prototipo, composición, tablero de dibujo',
-            hash: 't-7',
+            hash: 't1-7',
           },
         ],
       },
@@ -112,12 +112,6 @@ export default {
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -548,7 +542,7 @@ export default {
       significado: `En economía, un consumidor es una persona u organización que demanda bienes o servicios a cambio de dinero proporcionados por el productor o el proveedor de bienes o servicios. Es decir, es un agente económico con una serie de necesidades. También se define como aquel que consume o compra productos para el consumo; es por tanto el actor final de diversas transacciones productivas.`,
     },
     {
-      termino: 'Distribución  ',
+      termino: 'Distribución',
       significado: `Es aquel conjunto de actividades, que se realizan desde que el producto ha sido elaborado por el fabricante hasta que ha sido comprado. La distribución de productos de marca, puede llegar a una relación ruin e insana entre proveedor y distribuidor pudiendo generar controversia dentro de la empresa, que tiene por objeto precisamente hacer llegar el producto (bien o servicio) hasta el consumidor, de cualquier forma a cualquier precio y desprestigiando la marca que representa en la mayoría de los casos pudiendo incluso interponerse entre el fabricante y consumidor final.`,
     },
     {
@@ -677,7 +671,7 @@ export default {
     {
       termino: 'Proceso creativo',
       significado:
-        'Se refiere a las fases que se deben seguir para la aplicación de la creatividad y la generación de ideas entorno a un reto o un problema a resolver. (Fandom, s.f.)',
+        'Se refiere a las fases que se deben seguir para la aplicación de la creatividad y la generación de ideas en torno a un reto o un problema a resolver. (Fandom, s.f.)',
     },
     {
       termino: 'Segmento de mercado',
@@ -741,7 +735,8 @@ export default {
         'http://gemmafraderabcn.com/tipos-de-tendencias-macrotendencias-y-microtendencias/',
     },
     {
-      texto: 'LaMacrotendeciaUsoYFuncion. (Durazo, 2018) y ',
+      texto:
+        'Durazo, (2018), La macrotendencia, uso y función dentro de una empresa de moda',
       tipo: 'Artículo',
       link: [
         'http://apttperu.com/la-macrotendencia-uso-y-funcion-dentro-de-una-empresa-de-moda/',
@@ -836,7 +831,7 @@ export default {
     },
     {
       texto:
-        '¿Qué-es-un moodboard de que sirve como se hace? | Anna&Co (Anna&Co, 2019) ',
+        '¿Qué-es-un moodboard de qué sirve cómo se hace? | Anna&Co (Anna&Co, 2019) ',
       tipo: 'Página web',
       link:
         'https://annaand.co/post/que-es-un-moodboard-de-que-sirve-como-se-hace',
@@ -967,7 +962,7 @@ export default {
     },
     {
       texto:
-        'TeoricaDeDiseñoDePanelesParaIndumentaria2014. (Comunicaciones Oui-we, 2014) ',
+        'Teórica De Diseño De Paneles Para Indumentaria 2014. (Comunicaciones Oui-we, 2014) ',
       tipo: 'Archivo adjunto y Página web',
       link:
         'https://es.slideshare.net/comunionesouiwe/teorica-de-diseode-paneles-para-indumentaria-2014',
@@ -991,7 +986,7 @@ export default {
         'https://elnuevoempresario.com/nicho-de-mercado-como-encontrarlo#gs.cnt6n6',
     },
     {
-      texto: 'Informe de tendencies de Lafayette ',
+      texto: 'Informe de tendencias de Lafayette ',
       tipo: 'Enlace a Página web',
       link: 'https://nextlab.lafayette.com/',
     },
@@ -1000,14 +995,14 @@ export default {
         'Manterola & Tamara Otzen, (2013) Por qué investigar y cómo conducir una investigación.',
       tipo: 'PDF',
       descarga:
-        '/downloads/Anexo B_U1_Por_ que_Investigar_y_Como_Conducir_una_Investigacion.pdf',
+        '/downloads/Anexo_B_U1_Por_ que_Investigar_y_Como_Conducir_una_Investigacion.pdf',
     },
     {
       texto:
         'Coolhunting editorial, buscando tendencias (Gómez-Tarragona, 2010).',
       tipo: 'PDF',
       descarga:
-        '/downloads/Anexo_X_U1_Coolhunting editorial, buscando tendencias.pdf',
+        '/downloads/Anexo_X_U1_Coolhunting_editorial_buscando_tendencias.pdf',
     },
     {
       texto:
@@ -1033,7 +1028,7 @@ export default {
         'Comunicaciones Oui-we, (2014), Teórica de diseño de paneles para indumentaria 2014.',
       tipo: 'PDF',
       descarga:
-        'downloads/Anexo SS_U1_TeoricaDeDiseñoDePanelesParaIndumentaria2014.pdf',
+        'downloads/Anexo_SS_U1_TeoricaDeDiseooDePanelesParaIndumentaria2014.pdf',
     },
     {
       texto:
@@ -1050,7 +1045,7 @@ export default {
     },
     {
       texto:
-        'Silvestrini, M.,(2008), Fuentes de información primarias, secundarias y terciarias.',
+        'Silvestrini, M., (2008), Fuentes de información primarias, secundarias y terciarias.',
       tipo: 'PDF',
       descarga: '/downloads/FuentesDeInformacion.pdf',
     },
@@ -1066,12 +1061,12 @@ export default {
         '/downloads/Anexo_D_U2_ Los consumidores_clientes_y_usuarios.pdf',
     },
     {
-      texto: 'Profundizacion',
+      texto: 'Profundización',
       tipo: 'Documento de word',
       descarga: '/downloads/CF4_U1_T3_Profundizacion.docx',
     },
     {
-      texto: 'Figuras y graficos',
+      texto: 'Figuras y gráficos',
       tipo: 'Documento de Power point',
       descarga: '/downloads/CF4_FigurasYGraficos.pptx',
     },
@@ -1136,7 +1131,7 @@ export default {
       {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Evaluador Instruccional',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capita',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
